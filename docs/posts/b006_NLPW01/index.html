@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Christophe Benavent">
-<meta name="dcterms.date" content="2023-08-04">
+<meta name="dcterms.date" content="2023-09-12">
 
-<title>Christophe Benavent Diary - Bienvenue sur ma paillasse!</title>
+<title>Christophe Benavent Diary - NLPWorkshop 12 sept 2023 : Grammaire des données et des graphiques</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -107,17 +126,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Bienvenue sur ma paillasse!</h1>
+      <h1 class="title">NLPWorkshop 12 sept 2023 : Grammaire des données et des graphiques</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">NLP</div>
-                <div class="quarto-category">Digital</div>
-                <div class="quarto-category">Consommation</div>
-                <div class="quarto-category">Stratégie</div>
-                <div class="quarto-category">Actualité</div>
-                <div class="quarto-category">Art et Musiques</div>
-                <div class="quarto-category">Conférences</div>
-                <div class="quarto-category">Cours</div>
-                <div class="quarto-category">Présentations</div>
+                <div class="quarto-category">NLPworkshop</div>
+                <div class="quarto-category">Méthodes</div>
+                <div class="quarto-category">dataviz</div>
               </div>
                   </div>
   </div>
@@ -135,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">August 4, 2023</p>
+        <p class="date">September 12, 2023</p>
       </div>
     </div>
     
@@ -153,17 +166,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Bienvenue !</p>
-<p>Soyez bienvenu dans mon laboratoire, sur ma paillasse. Ma nouvelle tentative de faire un journal, celui de mon travail et de des questions qui me travaillent.</p>
-<p><img src="welcome.jpg" class="img-fluid"></p>
-<p>Je reviens au bloging avec une solution technique qui ne m’éloigne pas de mes outils habituels. Il est construit avec Quarto et préparé dans r studio, ce sera pratique quand j’y publierais des posts techniques.</p>
-<p>Il y aura des notices pour les modèles que je fréquente, des notes d’opinions dans les domaines que je crois connaitre, d’autres étonnements quand je suis moins compétent, un peu de musique, des descriptifs de cours, des compte-rendu de conférences ou d’expériences.</p>
-<p>Et puis ce séminaire ingrat, où deux fois par mois on se collera à la technique. Un atelier où on aura pas peur de mettre les mains dans la graisse et de toucher aux engrenages. Mon petit #NLPWorkshop.</p>
-<p>Bienvenue dans mon désordre.</p>
+<p>Pour cette première séance de l’année, on revient aux bases avec deux packages essentiels : dplyr, pour traiter les données, et ggplot2 pour les visualiser. Les deux répondent à une grammaire que <span class="citation" data-cites="wilkinson_grammar_2005">Wilkinson and Wills (<a href="#ref-wilkinson_grammar_2005" role="doc-biblioref">2005</a>)</span> a systématisé pour les graphiques, et que <span class="citation" data-cites="wickham_welcome_2019">Wickham et al. (<a href="#ref-wickham_welcome_2019" role="doc-biblioref">2019</a>)</span> a empaqueté dans la suite tidyverse.</p>
+<p><img src="grammar.jpg" class="img-fluid"></p>
+<p>Le but est de présenter la manière de travailler, pour des données complexes, avec ces deux packages et leur compagnons de tidyverse. Ce sera très pratique, pas trop pédagogique car on ira directement vers des exemples un peu compliqués afin de démontrer la versatilité de ce langage et ses finesses.</p>
+<p>On ne fera pas pour les débutants (à moins qu’ils étudient avant les références), mais pour les spécialistes !</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-wickham_welcome_2019" class="csl-entry" role="listitem">
+Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy McGowan, Romain François, Garrett Grolemund, et al. 2019. <span>“Welcome to the Tidyverse.”</span> <em>Journal of Open Source Software</em> 4 (43): 1686. <a href="https://doi.org/10.21105/joss.01686">https://doi.org/10.21105/joss.01686</a>.
+</div>
+<div id="ref-wilkinson_grammar_2005" class="csl-entry" role="listitem">
+Wilkinson, Leland, and Graham Wills. 2005. <em>The Grammar of Graphics</em>. 2nd ed. Statistics and Computing. New York: Springer.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
