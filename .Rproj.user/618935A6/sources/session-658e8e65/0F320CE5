@@ -1,13 +1,13 @@
 {
-    "id": "3ED8DBB5",
-    "path": "~/_newblog/bloggit/posts/b004_sixtojesusrodriguez/index.qmd",
-    "project_path": "posts/b004_sixtojesusrodriguez/index.qmd",
+    "id": "0F320CE5",
+    "path": "~/_newblog/bloggit/index.qmd",
+    "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "52544745",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1691611949681.0,
-    "source_on_save": true,
+    "created": 1691671190120.0,
+    "source_on_save": false,
     "relative_order": 2,
     "properties": {
         "rmdVisualMode": "true",
@@ -16,16 +16,14 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "0,0",
-        "scrollLine": "0",
-        "rmdVisualModeLocation": "3283:1375"
+        "rmdVisualModeLocation": "187:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1691668831,
+    "lastKnownWriteTime": 1691606593,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1691668831207,
+    "last_content_update": 1691606593,
     "read_only": false,
     "read_only_alternatives": []
 }
