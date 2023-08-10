@@ -5,7 +5,7 @@ date: "2023-08-05"
 categories: [NLPworkshop, Méthodes, NLP, IA, Texte]
 ---
 
-Cet atelier a pour but sur une base bi-mensuelle d'approfondir une technique NLP en examinant sa mise en oeuvre pratique en r, en Python ou d'autres solutions. C'est un séminaire de la plateforme [ACSS](https://acss-dig.psl.eu/fr) destiné d'abord à l'équipe, pour renforcer nos compétences, et à nos étudiants qu'on encourage à employer ces méthodes. Il reste cependant ouvert, par son format hybride, à quiconque le souhaite. C'est un lieu de partage de savoir-faire où le trick compte plus que le concept. 
+Cet atelier a pour but sur une base bi-mensuelle d'approfondir une technique NLP en examinant sa mise en oeuvre pratique en r, en Python ou d'autres solutions. C'est un séminaire de la plateforme [ACSS](https://acss-dig.psl.eu/fr) destiné d'abord à l'équipe, pour renforcer nos compétences, et à nos étudiants qu'on encourage à employer ces méthodes. Il reste cependant ouvert, par son format hybride, à quiconque le souhaite. C'est un lieu de partage de savoir-faire où le trick compte plus que le concept.
 
 ![](code.jpg)
 
@@ -15,9 +15,9 @@ Le format de l'atelier est simple:
 
 -   L'intervenant et l'animateur sont en présentiel ainsi que des invités dans les limites du bureau P421b à Dauphine. On peut y assister à distance, les liens de connexion seront annoncés ultérieurement. Pour être informé contactez moi directement pour être ajouté à la liste de diffusion de l'atelier.
 
--   Les sujets portent sur tous les aspects du NLP et des techniques qui le servent. Ils sont traités de manière technique sous forme de tutoriel en direct avec exécution, analyse et discussions des codes. les aspects conceptuels seront secondaires. 
+-   Les sujets portent sur tous les aspects du NLP et des techniques qui le servent. Ils sont traités de manière technique sous forme de tutoriel en direct avec exécution, analyse et discussions des codes. les aspects conceptuels seront secondaires.
 
-Le programme 2023-2024 n'est pas encore tout à fait établi. Voici une liste tentative de sujets. 
+Le programme 2023-2024 n'est pas encore tout à fait établi. Voici une liste tentative de sujets.
 
 -   14 septembre 2023 : Dplyr et GGplot : la base de la base ! ( C Benavent) - confirmé
 -   28 septembre 2023 : Mise en oeuvre du modèle STM (Bruno Chavez)
@@ -35,7 +35,6 @@ Le programme 2023-2024 n'est pas encore tout à fait établi. Voici une liste te
 
 En 2022-2023, nous avons eu quelques séances d'essai en comité restreint avec :
 
-* Jacqueline (Dauphine- Acss) : zero-shot classification
-* José Moreno (Dauphine- Acss): implementation of a bert topic model
-* Olivier Caron (Dauphine - Acss): citations networks from scopus to r. 
-
+-   Jacqueline (Dauphine- Acss) : zero-shot classification
+-   José Moreno (Dauphine- Acss): implementation of a bert topic model
+-   Olivier Caron (Dauphine - Acss): citations networks from scopus to r.

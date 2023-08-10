@@ -9,6 +9,6 @@ Pour cette première séance de l'année, on revient aux bases avec deux package
 
 ![](grammar.jpg)
 
-Le but est de présenter la manière de travailler, pour des données complexes, avec ces deux packages et leur compagnons de tidyverse. Ce sera très pratique, pas trop pédagogique car on ira directement vers des exemples un peu compliqués dans le but de montrer la versatilité de ce langage et ses finesses.
+Le but est de présenter la manière de travailler, pour des données complexes, avec ces deux packages et leur compagnons de tidyverse. Ce sera très pratique, pas trop pédagogique car on ira directement vers des exemples un peu compliqués afin de démontrer la versatilité de ce langage et ses finesses.
 
 On ne fera pas pour les débutants (à moins qu'ils étudient avant les références), mais pour les spécialistes !
