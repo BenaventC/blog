@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "1ea93d97"
+  },
+  "about.qmd": {
+    "about.html": "5722ce7d"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "a61c16a7"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "e3dcb815"
+  },
+  "posts/b001 first post/index.qmd": {
+    "index.html": "b72519d7"
+  },
+  "posts/b002_PSLweek/index.qmd": {
+    "index.html": "18897212"
+  },
+  "posts/b003_DigitalMarketingConference/index.qmd": {
+    "index.html": "9344bdd0"
+  },
+  "posts/RadioNLP/index.qmd": {
+    "index.html": "130bfe25"
+  },
+  "posts/RadioNLP01/index.qmd": {
+    "index.html": "da545558"
+  },
+  "posts/b004_sixtojesusrodriguez/index.qmd": {
+    "index.html": "56d994a2"
+  }
+}
