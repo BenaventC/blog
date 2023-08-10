@@ -13,7 +13,7 @@ Le format de l'atelier est simple:
 
 -   Une durée d'une heure, les jeudi, de 12h15 à 13h15, tous les 15 jours à partir du 14 septembre (voir programme ci-dessous). On tentera de les enregistrer.
 
--   L'intervenant et l'animateur sont en présentiel ainsi que des invités dans les limites du bureau P421b à Dauphine. On peut y assister à distance, les liens de connexion seront annoncés ultérieurement. Pour être informé contactez moi directement pour être ajouté à la liste de diffusion de l'atelier.
+-   L'intervenant et l'animateur sont en présentiel ainsi que des invités dans les limites du bureau P421b à Dauphine. On peut y assister à distance, les liens de connexion seront annoncés ultérieurement. Contactez moi directement pour être ajouté à la liste de diffusion de l'atelier.
 
 -   Les sujets portent sur tous les aspects du NLP et des techniques qui le servent. Ils sont traités de manière technique sous forme de tutoriel en direct avec exécution, analyse et discussions des codes. les aspects conceptuels seront secondaires.
 
@@ -29,7 +29,7 @@ Le programme 2023-2024 n'est pas encore tout à fait établi. Voici une liste te
 -   21 décembre 2023 : Une analyse NLP de question ouvertes - avec l'amarc
 -   11 janvier 2024 : orange experience
 -   25 janvier 2024 : using shiny for a dashboard approach of inference
--   8 février 2024 : using gpu
+-   8 février 2024 : using gpu ( José ?)
 
 ...
 
