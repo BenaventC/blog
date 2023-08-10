@@ -1,0 +1,16 @@
+---
+title: "Cours : Bientôt, une semaine de NLP à la PSL week"
+author: "Christophe Benavent"
+date: "2023-08-07"
+categories: [NLP, Cours, Actualité, Dauphine, PSL]
+---
+
+Le cours est prêt. Une semaine de NLP dans le cadre de la PSL week ( du 26 novembre au 1 er décembre). Plus précisément 3 jours de cours et 2 jours de concours. 
+
+![](wordcloudnlp.jpeg)
+
+Au menu du cours : en apéritif la collecte la la structuration des corpus, la tokenisation et les annotations, en entrée compter les mots, pour le plats principal des réseaux sémantiques, du topic modelling et quelques embeddings. Au dessert une introduction aux transformer, le pousse-café sera avec chatgpt. Pour digérer pas de sieste, mais un très joli corpus de script de publicités obtenu dans le cadre d'une convention de recherche d'aCCS avec l'Arcom et produit par Kantar. (pour éviter l'indigestion on se concentre sur un secteur : celui de l'Alimentaire et des boissons)
+
+Pour s'inscrire c'est ici pour les étudiants de PSL, et là pour les autres en fonction des places restantes. 
+
+Le syllabus est en cours de préparation, on le retrouvera là :

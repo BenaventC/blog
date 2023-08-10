@@ -1,0 +1,20 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/benavent
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/christophebenavent/
+    - icon: github
+      text: Github
+      href: https://github.com/BenaventC
+---
+
+Au fil des jours, quelques notes de Christophe Benavent, professeur à L'Université Paris Dauphine - PSL qui partage son temps entre les data sciences (NLP), l'étude des pratiques marketing, et l'observation de la société de consommation.
+
+S'y mêlerons aussi les syllabus des cours de l'année.

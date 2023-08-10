@@ -1,0 +1,245 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1080/01621459.2016.1141684",
+            "URL": "https://www.tandfonline.com/doi/full/10.1080/01621459.2016.1141684",
+            "author": [
+                {
+                    "family": "Roberts",
+                    "given": "Margaret E."
+                },
+                {
+                    "family": "Stewart",
+                    "given": "Brandon M."
+                },
+                {
+                    "family": "Airoldi",
+                    "given": "Edoardo M."
+                }
+            ],
+            "container-title": "Journal of the American Statistical Association",
+            "id": "roberts_model_2016",
+            "issue": "515",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        7,
+                        2
+                    ]
+                ]
+            },
+            "page": "988-1003",
+            "title": "A model of text for experimentation in the social sciences",
+            "type": "article-journal",
+            "volume": "111"
+        },
+        {
+            "DOI": "10.1038/s44159-022-00093-5",
+            "ISSN": "2731-0574",
+            "URL": "https://www.nature.com/articles/s44159-022-00093-5",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Jost",
+                    "given": "John T."
+                },
+                {
+                    "family": "Baldassarri",
+                    "given": "Delia S."
+                },
+                {
+                    "family": "Druckman",
+                    "given": "James N."
+                }
+            ],
+            "container-title": "Nature Reviews Psychology",
+            "container-title-short": "Nat Rev Psychol",
+            "id": "jost_cognitivemotivational_2022",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        8,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "560-576",
+            "title": "Cognitive–motivational mechanisms of political polarization in social-communicative contexts",
+            "type": "article-journal",
+            "volume": "1"
+        },
+        {
+            "ISBN": "978-0-387-24544-7",
+            "author": [
+                {
+                    "family": "Wilkinson",
+                    "given": "Leland"
+                },
+                {
+                    "family": "Wills",
+                    "given": "Graham"
+                }
+            ],
+            "collection-title": "Statistics and computing",
+            "edition": "2nd ed",
+            "id": "wilkinson_grammar_2005",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005
+                    ]
+                ]
+            },
+            "keyword": "Graphic methods Data processing, Statistics",
+            "number-of-pages": "690",
+            "publisher": "Springer",
+            "publisher-place": "New York",
+            "title": "The grammar of graphics",
+            "type": "book"
+        },
+        {
+            "DOI": "10.21105/joss.01686",
+            "ISSN": "2475-9066",
+            "URL": "https://joss.theoj.org/papers/10.21105/joss.01686",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Averick",
+                    "given": "Mara"
+                },
+                {
+                    "family": "Bryan",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Winston"
+                },
+                {
+                    "family": "McGowan",
+                    "given": "Lucy"
+                },
+                {
+                    "family": "François",
+                    "given": "Romain"
+                },
+                {
+                    "family": "Grolemund",
+                    "given": "Garrett"
+                },
+                {
+                    "family": "Hayes",
+                    "given": "Alex"
+                },
+                {
+                    "family": "Henry",
+                    "given": "Lionel"
+                },
+                {
+                    "family": "Hester",
+                    "given": "Jim"
+                },
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Pedersen",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Miller",
+                    "given": "Evan"
+                },
+                {
+                    "family": "Bache",
+                    "given": "Stephan"
+                },
+                {
+                    "family": "Müller",
+                    "given": "Kirill"
+                },
+                {
+                    "family": "Ooms",
+                    "given": "Jeroen"
+                },
+                {
+                    "family": "Robinson",
+                    "given": "David"
+                },
+                {
+                    "family": "Seidel",
+                    "given": "Dana"
+                },
+                {
+                    "family": "Spinu",
+                    "given": "Vitalie"
+                },
+                {
+                    "family": "Takahashi",
+                    "given": "Kohske"
+                },
+                {
+                    "family": "Vaughan",
+                    "given": "Davis"
+                },
+                {
+                    "family": "Wilke",
+                    "given": "Claus"
+                },
+                {
+                    "family": "Woo",
+                    "given": "Kara"
+                },
+                {
+                    "family": "Yutani",
+                    "given": "Hiroaki"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "container-title-short": "JOSS",
+            "id": "wickham_welcome_2019",
+            "issue": "43",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        11,
+                        21
+                    ]
+                ]
+            },
+            "page": "1686",
+            "title": "Welcome to the tidyverse",
+            "type": "article-journal",
+            "volume": "4"
+        }
+    ],
+    "project_biblios": [
+        "blog.bib"
+    ]
+}
