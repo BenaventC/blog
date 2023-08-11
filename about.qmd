@@ -2,7 +2,7 @@
 title: "About"
 image: profile.jpg
 about:
-  template: jolla
+  template: broadside
   links:
     - icon: twitter
       text: Twitter
@@ -15,6 +15,20 @@ about:
       href: https://github.com/BenaventC
 ---
 
-Au fil des jours, quelques notes de Christophe Benavent, professeur à L'Université Paris Dauphine - PSL qui partage son temps entre les data sciences (NLP), l'étude des pratiques marketing, et l'observation de la société de consommation.
+Christophe Benavent, Professeur à L'Université Paris Dauphine - PSL.
 
-S'y mêlerons aussi les syllabus des cours de l'année.
+Institutionnellement je fais partie de DRM, le projet qui concentre mon attention c'est Acss. Je suis un des membres du [cercle de l'Obscoco](https://lobsoco.com/le-cercle-de-lobsoco/), un auditeur du [Chede](https://www.economie.gouv.fr/igpde/cycle-des-hautes-etudes-pour-developpement-economique-chede), un ami de l'[Amarc](https://www.amarc.asso.fr/).
+
+Intellectuellement, je centre mon attention sur la question du texte : comment,  dans le champs des sciences sociales,  l'analyser, comment en extraire le sens, avec les outils nouveaux nés de la rencontre de la linguistique et de l'informatique. Mes corpus sont ceux du marketing : avis de consommation, folksomie, données crm, etc.
+
+Je jette un œil ironique, parfois agacé, souvent attendri sur les contorsions de nos sociétés. Avec un certain âge, j'en suis de plus en plus sensible à l'histoire. J'ai vécu un monde où il fallait attendre des mois pour avoir le téléphone, j'ai connu un monde où il n'y avait que trois chaînes de télévision, des radios dont les Crs brisaient régulièrement les émetteurs, mon premier traitement de texte était une machine à écrire électriques, mon premier ordinateur portable pesait 13 kilos, avant Google j'utilisais Gopher, j'ai été fan de Napster, j'ai adoré le Facebook modulable à l'infini des débuts, j'ai adopté Twitter avec les printemps arabes. En me rangeant des famille, je maintiens mon LinkedIn et me rajeunit avec la discipline de github. J'ai vécu un monde bipolaire, j'ai vécu un monde qui a cru être global, je découvre comme chacun un monde que menace l'apocalypse climatique et qui pourtant une fabuleuse explosion esthétique et scientifique.
+
+Mes hobbies n'intéressent que moi, ma famille ne concerne que ma famille et je tiens à l'anonymat de mes animaux domestiques. 
+
+### CV
+
+le plus simple c'est de regarder ce que lisent les machines ! 
+
+* [GoogleScholar](https://scholar.google.fr/citations?hl=fr&user=yoA8SYUAAAAJ&view_op=list_works&sortby=pubdate)
+
+* [ResearchGate](https://www.researchgate.net/profile/Christophe-Benavent-2)

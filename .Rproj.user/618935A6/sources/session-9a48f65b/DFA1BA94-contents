@@ -1,0 +1,20 @@
+---
+title: "Bienvenue sur ma paillasse!"
+author: "Christophe Benavent"
+date: "2023-08-04"
+categories: [Welcome]
+---
+
+Bienvenue !
+
+Soyez bienvenu dans mon laboratoire, sur ma paillasse. Là où je prépare mes cours, j'annonce mes conférences et de temps à autres de nouvelles publication. Et quand j'en aurai le loisir des notes plus personnelles. Bref un journal, celui de mon travail et des questions qui me travaillent.
+
+![](welcome.jpg)
+
+Je reviens donc au blogging avec une solution technique qui ne m'éloigne pas de mes outils habituels. Il est construit avec Quarto et préparé dans r studio, ce sera pratique quand j'y publierais des posts plus centrés data sciences.
+
+Il y aura une série qu'il faudra suivre, celle d'un atelier hybride qui traitera des techniques de NLP technique. Un atelier où on aura pas peur de mettre les mains dans la graisse et de toucher aux engrenages. Un atelier où on commente le code et où on l'éxecute.
+
+[lire ici pour plus d'information](./docs/posts/b005_NLPW00/index.html)
+
+Bienvenue dans mon désordre.

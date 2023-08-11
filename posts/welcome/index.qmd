@@ -2,19 +2,19 @@
 title: "Bienvenue sur ma paillasse!"
 author: "Christophe Benavent"
 date: "2023-08-04"
-categories: [NLP, Digital, Consommation, Stratégie, Actualité, Arts et Musique, Conférences, Cours,  Présentations]
+categories: [Welcome]
 ---
 
 Bienvenue !
 
-Soyez bienvenu dans mon laboratoire, sur ma paillasse. Ma nouvelle tentative de faire un journal, celui de mon travail et de des questions qui me travaillent.
+Soyez bienvenu dans mon laboratoire, sur ma paillasse. Là où je prépare mes cours, j'annonce mes conférences et de temps à autres de nouvelles publication. Et quand j'en aurai le loisir des notes plus personnelles. Bref un journal, celui de mon travail et des questions qui me travaillent.
 
 ![](welcome.jpg)
 
-Je reviens au bloging avec une solution technique qui ne m'éloigne pas de mes outils habituels. Il est construit avec Quarto et préparé dans r studio, ce sera pratique quand j'y publierais des posts techniques.
+Je reviens donc au blogging avec une solution technique qui ne m'éloigne pas de mes outils habituels. Il est construit avec Quarto et préparé dans r studio, ce sera pratique quand j'y publierais des posts plus centrés data sciences.
 
-Il y aura des notices pour les modèles que je fréquente, des notes d'opinions dans les domaines que je crois connaitre, d'autres étonnements quand je suis moins compétent, un peu de musique, des descriptifs de cours, des compte-rendu de conférences ou d'expériences.
+Il y aura une série qu'il faudra suivre, celle d'un atelier hybride qui traitera des techniques de NLP technique. Un atelier où on aura pas peur de mettre les mains dans la graisse et de toucher aux engrenages. Un atelier où on commente le code et où on l'éxecute.
 
-Et puis ce séminaire ingrat, où deux fois par mois on se collera à la technique. Un atelier où on aura pas peur de mettre les mains dans la graisse et de toucher aux engrenages. Mon petit #NLPWorkshop.
+[lire ici pour plus d'information](./docs/posts/b005_NLPW00/index.html)
 
 Bienvenue dans mon désordre.
