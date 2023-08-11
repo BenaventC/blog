@@ -2,6 +2,9 @@
   "listingMap": {
     "index.qmd": [
       "posts"
+    ],
+    "posts\\b006_NLPW01\\index.qmd": [
+      "posts"
     ]
   }
 }
