@@ -1,0 +1,5 @@
+"0",""
+"0","#indépendance entre prix de réserve et probabilité de revendre"
+"0","#ce sont les deux caractéristiques de base des conso. "
+"0","#on verra ensuite l'hypothèse de leur correlation"
+"0","ggplot(Conso, aes(CàPOccasion))+geom_histogram(binwidth = 1)"

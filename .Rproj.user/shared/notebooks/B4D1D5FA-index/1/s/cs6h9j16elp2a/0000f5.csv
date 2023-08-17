@@ -1,0 +1,1 @@
+"0","ggplot(Conso, aes(CàPOccasion,Décôte))+geom_point()+geom_smooth()"

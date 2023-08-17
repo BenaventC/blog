@@ -1,0 +1,35 @@
+"0","library(tidyverse)"
+"0","Décote=.25"
+"0","#consommateurs"
+"0","Conso<- data.frame(value = round(rnorm(10000, mean = 30, sd = 20),0)) %>%"
+"0","  mutate(CàPNeuf=value)%>%"
+"0"," mutate(CàPNeuf=ifelse(CàPNeuf<0,0,value))%>%"
+"0","  rownames_to_column(var=""id"")"
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"
+"2","Error in assign(cacheKey, frame, .rs.CachedDataEnv) : 
+  attempt to use zero-length variable name
+"
+"0","Conso$Décôte<- rnorm(nrow(Conso), mean=Décote, sd=0.05)"
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"
+"2","Error in assign(cacheKey, frame, .rs.CachedDataEnv) : 
+  attempt to use zero-length variable name
+"
+"0","Conso$CàPOccasion<- Conso$value*Conso$Décôte"
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"
+"2","Error in assign(cacheKey, frame, .rs.CachedDataEnv) : 
+  attempt to use zero-length variable name
+"
+"0","Conso$CàPOccasion<-ifelse(Conso$CàPOccasion<0,0,Conso$CàPOccasion)"
+"2","Error in exists(cacheKey, where = .rs.WorkingDataEnv, inherits = FALSE) : 
+  invalid first argument
+"
+"2","Error in assign(cacheKey, frame, .rs.CachedDataEnv) : 
+  attempt to use zero-length variable name
+"
+"0","ggplot(Conso, aes(CàPOccasion))+geom_histogram(binwidth = 1)"
