@@ -1,14 +1,14 @@
 {
-    "id": "982CD330",
-    "path": "~/_newblog/bloggit/posts/b001 first post/index.qmd",
-    "project_path": "posts/b001 first post/index.qmd",
+    "id": "11624C7F",
+    "path": "~/_newblog/bloggit/posts/b003_DigitalMarketingConference/index.qmd",
+    "project_path": "posts/b003_DigitalMarketingConference/index.qmd",
     "type": "quarto_markdown",
-    "hash": "893008018",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1692291493509.0,
+    "created": 1692296102803.0,
     "source_on_save": true,
-    "relative_order": 1,
+    "relative_order": 3,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,14 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "2026:900",
-        "cursorPosition": "0,0",
-        "scrollLine": "0"
+        "rmdVisualModeLocation": "233:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1692294727,
+    "lastKnownWriteTime": 1692296109,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1692294727452,
+    "last_content_update": 1692296109434,
     "read_only": false,
     "read_only_alternatives": []
 }
