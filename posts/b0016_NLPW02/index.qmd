@@ -2,11 +2,10 @@
 title: "NLPWorkshop 12 mars  2023 : NLP pour SLR "
 author: "Christophe Benavent"
 date: "2023-03-12"
-categories: [NLPworkshop, Méthodes, SLR, ]
+categories: [NLPworkshop, Méthodes, SLR, embeddings, network analysis ]
 ---
 
-Ce n'est pas tout à fait un **NLP Workshop** , mais une présentation assez détaillé de l'usage des techniques NLP pour réaliser des "Systematic Literature Review" qui a été proposé dans le cadre des activités de DRM. On aborde l'interrogation des bases de données bibliographiques, la constitution des fichiers de données, l'analyse des réseaux d'auteurs et de citations, l'identification des thèmes par des méthodes d'embeddings ainsi que l'analyse de similarité des textes.  En voici la vidéo.
-
+Ce n'est pas tout à fait un **NLP Workshop** , mais une présentation assez détaillé de l'usage des techniques NLP pour réaliser des "Systematic Literature Review" qui a été proposé dans le cadre des activités de DRM. On aborde l'interrogation des bases de données bibliographiques, la constitution des fichiers de données, l'analyse des réseaux d'auteurs et de citations, l'identification des thèmes par des méthodes d'embeddings ainsi que l'analyse de similarité des textes. En voici la vidéo.
 
 {{< video https://www.youtube.com/watch?v=FQ8M5MhyRaw width="500" height="350">}}
 
