@@ -249,6 +249,6 @@
     "href": "posts/b0016_NLPW02/index.html",
     "title": "NLPWorkshop 12 mars 2023 : NLP pour SLR",
     "section": "",
-    "text": "Ce n’est pas tout à fait un NLP Workshop , mais une présentation assez détaillé de l’usage des techniques NLP pour réaliser des “Systematic Litterature Review” qui a été proposé dans le cadre des activités de DRM. En voici la vidéo,\n\nLes slides sont disponibles ici"
+    "text": "Ce n’est pas tout à fait un NLP Workshop , mais une présentation assez détaillé de l’usage des techniques NLP pour réaliser des “Systematic Literature Review” qui a été proposé dans le cadre des activités de DRM. On aborde l’interrogation des bases de données bibliographiques, la constitution des fichiers de données, l’analyse des réseaux d’auteurs et de citations, l’identification des thèmes par des méthodes d’embeddings ainsi que l’analyse de similarité des textes. En voici la vidéo.\n\nLes slides sont disponibles ici, et le code là"
   }
 ]
