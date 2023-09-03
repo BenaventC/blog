@@ -1,9 +1,9 @@
 {
     "id": "A7B225E6",
-    "path": "~/_newblog/bloggit/posts/b0017_Peinture_ Louisbarbe/index.qmd",
-    "project_path": "posts/b0017_Peinture_ Louisbarbe/index.qmd",
+    "path": "C:/Users/33623/Documents/_newblog/bloggit/posts/b0017_Peinture_Louisbarbe/index.qmd",
+    "project_path": "posts/b0017_Peinture_Louisbarbe/index.qmd",
     "type": "quarto_markdown",
-    "hash": "101368730",
+    "hash": "879917805",
     "contents": "",
     "dirty": false,
     "created": 1693732158423.0,
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "11,898",
-        "scrollLine": "0",
+        "cursorPosition": "22,529",
+        "scrollLine": "12",
         "rmdVisualModeLocation": "1292:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1693735129,
+    "lastKnownWriteTime": 1693735625,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1693735129630,
+    "last_content_update": 1693735625647,
     "read_only": false,
     "read_only_alternatives": []
 }
