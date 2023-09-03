@@ -3,6 +3,9 @@ project:
 
 website:
   title: "Blog B"
+  twitter-card: true
+  open-graph: true
+  google-analytics: "G-2R79S40E0F"
   navbar:
     right:
       - about.qmd
