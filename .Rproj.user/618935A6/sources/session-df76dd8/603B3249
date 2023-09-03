@@ -3,7 +3,7 @@
     "path": "~/_newblog/bloggit/posts/b003_DigitalMarketingConference/index.qmd",
     "project_path": "posts/b003_DigitalMarketingConference/index.qmd",
     "type": "quarto_markdown",
-    "hash": "1309174424",
+    "hash": "1920228301",
     "contents": "",
     "dirty": false,
     "created": 1693732832895.0,
@@ -17,15 +17,15 @@
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
         "rmdVisualModeLocation": "937:400",
-        "cursorPosition": "14,0",
+        "cursorPosition": "16,127",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1693734705,
+    "lastKnownWriteTime": 1693737369,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1693734705157,
+    "last_content_update": 1693737369691,
     "read_only": false,
     "read_only_alternatives": []
 }
