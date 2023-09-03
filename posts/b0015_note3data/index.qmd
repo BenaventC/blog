@@ -13,4 +13,4 @@ La métaphore connait des limites, et si le pétrole se sert à la pompe, et se 
 
 ce simple exemple suffit à noter que l'information n'est pas une huile de roche que l'on cracke, mais une matière organique qu'on composte. La donnée vaut par sa transformation qui relève moins de la chimie que de la biologie, la valeur des données se fait par une macération, une digestion, une décomposition dont l'IA fournit les vers. Il est sans doute temps d'adopter une métaphore plus organique des données et de leur traitement, celle de l'humus et du terreau me semble plus adéquate.
 
-Elle explique pourquoi les uns et les autres n'ont pas le même succès dans leur usage. 
+Elle explique pourquoi les uns et les autres n'ont pas le même succès dans leur usage.
