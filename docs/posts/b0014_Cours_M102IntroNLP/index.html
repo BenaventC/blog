@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Christophe Benavent">
-<meta name="dcterms.date" content="2023-09-02">
+<meta name="dcterms.date" content="2023-08-01">
 
-<title>Blog B - Art : une rentrée rue Chapon</title>
+<title>Blog B - Cours Master 102: introduction au text mining</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -107,11 +107,12 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Art : une rentrée rue Chapon</h1>
+      <h1 class="title">Cours Master 102: introduction au text mining</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">Peinture</div>
-                <div class="quarto-category">Expo</div>
-                <div class="quarto-category">Paris</div>
+                <div class="quarto-category">Cours</div>
+                <div class="quarto-category">NLP</div>
+                <div class="quarto-category">Text Mining</div>
+                <div class="quarto-category">embeddings</div>
               </div>
                   </div>
   </div>
@@ -129,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 2, 2023</p>
+        <p class="date">August 1, 2023</p>
       </div>
     </div>
     
@@ -147,26 +148,33 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Aujourd’hui, c’était un vernissage collectif rue Chapon. C’est l’expo <a href="https://www.fillesducalvaire.com/exhibitions/148/overview/">“Je suis contre”</a> qui m’a attiré aux Filles du Calvaire. Je ne connaissais pas <em>Art Orienté Objet</em>, un entretien sur <a href="https://www.radiofrance.fr/franceculture/podcasts/les-midis-de-culture/art-oriente-objet-le-duo-artistique-qui-nous-desoriente-7941429">France culture</a> a amené la puce à mon oreille, ça aurait pu être une souris…</p>
+<p>Le cours est une introduction aux méthodes d’analyse automatisée du texte, qu’on peut appeler aussi NLP ( Natural Langage Processing) et désigné auparavant par text-mining. Le changement d’appellation résulte d’un mouvement d’accumulation de sophistication des techniques, allant du comptage des mots, aux méthodes d’embeddings aujourd’hui, et avec l’irruption des #LLM, la mise oeuvre de tâches complexe ( résumés, Q&amp;A etc).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="AOO.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">AOO - hydra</figcaption>
+<p><img src="personality_wordcloud_example.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">from https://www.traitlab.com/about</figcaption>
 </figure>
 </div>
-<p>La promesse a été remplie, je ne sais si c’est du bio rrt, de l’éco-Art, mais on retrouve avec intelligence, toutes les questions que nous entretenons avec la vie et le monde au travers de dispositifs aussi ingénieux qu’ils sont transgressifs, en apparence. C’est cérébral tout de même : sans cartel, il est difficile de saisir le sel de l’ironie. Ils doivent être de bons professeurs aux beaux arts, pétillants. On y retrouve un esprit Sophie Calle (elle a exposé pas si loin et il y a pas si longtemps au musée de la Chasse et des Traditions), le surréalisme du ready-made et on y reconnait le travail subtil d’un art qui s’approche de la science lui empruntant ses mutations et ses techniques. L’hydre n’est surement pas une espèce éteinte, mais un possible évolutif de l’humain. Quand au “je suis contre”, il fait figure d’inventaire de nos peurs et sont autant de perches qui nous propulsent vers de nouvelles perspectives.</p>
-<p>Et puis il y a l’<a href="https://www.youtube.com/watch?v=FSJXdewBiVo">histoire du cheval</a> qui hante l’exposition, une si longue histoire en peinture le cheval, sans même parler du facteur, ce vieux compagnon de l’humanité que nous avons abandonné pour la vache et le bœuf. S’il fallait une bande son, j’en recommande une, celle de <a href="https://matthewherbert.bandcamp.com/album/the-horse">Matthew Herbert</a>, faite d’os et de sons.</p>
-<p>Dans les autres galeries de la rue, de jolies choses mais rien qui ne m’a renversé. Poursuivant un peu plus loin, je m’arrête à la galerie <a href="https://galeriesabinebayasli.com/">Sabine Bayasli</a>, en moins de deux minutes et un étonnement, le choc.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="LouisBarbe.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Louis barbe - Une première expérience pénitencière</figcaption>
-</figure>
-</div>
-<p>Louis Barbe propose une série de toiles qui impose l’évidence. Un art de raconter des histoires qui rappelle la figuration narrative, un toucher de pinceau qui saisit l’humanité des personnages presque à la manière de Kokoshka, une vision cinématographique qui raconte des histoires emboîtées, des détails à Jérôme Bosh (Mais que fait en bas à droite Ferré et sa guenon ?), le goût du larvaire et du dégoût, de grands rires, des copains, l’art des échelles et de leurs renversements pour faire surgir du bas le petit monde, le goût organique des matières (la nasse grouillante du chalutier est une performance), l’ironie à profusion qui rappelle Gérard Garouste, et toute la poésie de l’enfance (et de l’adolescence).</p>
-<p>J’ai échangé quelques mots avec sa galeriste, nous sommes tombé d’accord en un clin d’œil : cet artiste va faire un tabac. J’ai échangé avec Louis, il fait, ce qu’il m’a dit, de chaque instant de sa vie, de chaque ami qu’il croise, une histoire, il ne prétend à aucune vérité, juste saisit la matière de la vie comme l’on photographie, certains on besoin d’Instagram, lui il peint. Il a 21 ans, se cherche encore probablement, il pratique un réalisme magique dans le ton de notre siècle, faisant de rien une histoire fantastique.</p>
+<section id="programme" class="level2">
+<h2 class="anchored" data-anchor-id="programme">Programme</h2>
+<p>Séance 1 () : Introduction : corpus,</p>
+<p>Séance 2 () : Tokenisation, annotations</p>
+<p>Séance 3 () : coocurrence et représentations (réseau sémantique, clustering, projections)</p>
+<p>Séance 4 () : Modèles LDA</p>
+<p>Séance 5 () : Modèle doc2vec (embeddings)</p>
+<p>Séance 6 () : Présentation des travaux</p>
+</section>
+<section id="evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
+<p>Sur la base d’un exposé qui prend la forme d’une étude de cas. Pour cette année (2023-2024), on s’intéresse à la question de la personnalité de marque en constituant un petit corpus. Chaque étudiant devra répondre à ce <a href="https://forms.gle/ts6iuBVnewNNb2at9">questionnaire</a>, puis en petits groupes devra proposer une analyse du corpus.</p>
+</section>
+<section id="ressources" class="level2">
+<h2 class="anchored" data-anchor-id="ressources">Ressources</h2>
+<p>On consultera le <a href="https://benaventc.github.io/NLPBook/">syllabus</a></p>
+<p>Ce cours est dispensé aussi pour le master 204, avec quelques variations.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
