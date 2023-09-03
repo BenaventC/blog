@@ -1278,6 +1278,28 @@
             "page": "1-60",
             "title": "Cross-country trends in affective polarization",
             "type": "article-journal"
+        },
+        {
+            "ISBN": "2-13-084746-3",
+            "author": [
+                {
+                    "family": "Duvoux",
+                    "given": "Nicolas"
+                }
+            ],
+            "id": "duvoux_avenir_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "number-of-pages": "400",
+            "publisher": "PUF",
+            "title": "L’avenir confisqué: Inégalités de temps vécu, classes sociales et patrimoine",
+            "title-short": "L’avenir confisqué",
+            "type": "book"
         }
     ],
     "project_biblios": [
