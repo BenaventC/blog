@@ -1,11 +1,11 @@
 ---
-title: "Cours Master 204 : Introduction au NLP "
+title: "Cours Master 102: introduction au text mining"
 author: "Christophe Benavent"
-date: "2023-07-27"
-categories: [NLP, Cours]
+date: "2023-08-01"
+categories: [Cours, NLP, Text Mining, embeddings, ]
 ---
 
-Le cours est une introduction aux méthodes d'analyse automatisée du texte, qu'ont peut appeler aussi NLP ( Natural Langage Processing) est désigné auparavant par text-mining. Le changement appellation résulte d'un mouvement d'accumulation de sophistication des techniques, allant du comptage des mots, aux méthodes d'embeddings aujourd'hui, et avec l'irruption des #LLM, la mise oeuvre de tâches complexe ( résumés, Q&A etc).
+Le cours est une introduction aux méthodes d'analyse automatisée du texte, qu'on peut appeler aussi NLP ( Natural Langage Processing) et désigné auparavant par text-mining. Le changement d'appellation résulte d'un mouvement d'accumulation de sophistication des techniques, allant du comptage des mots, aux méthodes d'embeddings aujourd'hui, et avec l'irruption des #LLM, la mise oeuvre de tâches complexe ( résumés, Q&A etc).
 
 ![from https://www.traitlab.com/about](personality_wordcloud_example.png)
 
@@ -31,4 +31,4 @@ Sur la base d'un exposé qui prend la forme d'une étude de cas. Pour cette ann�
 
 On consultera le [syllabus](https://benaventc.github.io/NLPBook/)
 
-Ce cours est dispensé aussi pour le master 102, avec quelques variations.
+Ce cours est dispensé aussi pour le master 204, avec quelques variations.
