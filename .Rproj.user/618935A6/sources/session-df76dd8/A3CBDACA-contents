@@ -1,0 +1,12 @@
+---
+title: "Blog B"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: cloud
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: paris.jpg
+---
