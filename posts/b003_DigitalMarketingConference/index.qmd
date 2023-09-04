@@ -2,7 +2,7 @@
 title: "Actualité : Analyser 10 ans de publicités TV par un Structural Topic Model"
 author: "Christophe Benavent"
 date: "2023-09-07"
-categories: [NLP, Actualité, Conférences, Publications, Publicité, Marketing, Topic Model]
+categories: [NLP, Actualité, Conférences, Publications, Publicité, Marketing, Topic Model, Arcom]
 ---
 
 Les travaux que nous menons dans le cadre de la convention en Acss-PSL et l'ARCOM sont bien engagés. La communication que Bruno Chavez et moi-même allons présenter Au [22ème Colloque du Marketing Digital](https://www.colloquemarketingdigital.com/), en marque une première étape, une première exploration .

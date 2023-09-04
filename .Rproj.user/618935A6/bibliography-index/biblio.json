@@ -1300,6 +1300,45 @@
             "title": "L’avenir confisqué: Inégalités de temps vécu, classes sociales et patrimoine",
             "title-short": "L’avenir confisqué",
             "type": "book"
+        },
+        {
+            "DOI": "10.1086/267513",
+            "ISSN": "0033362X",
+            "URL": "https://academic.oup.com/poq/article-lookup/doi/10.1086/267513",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        9,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Sears",
+                    "given": "David O."
+                },
+                {
+                    "family": "Freedman",
+                    "given": "Jonathan L."
+                }
+            ],
+            "container-title": "Public Opinion Quarterly",
+            "id": "sears_selective_1967",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1967
+                    ]
+                ]
+            },
+            "page": "194",
+            "title": "Selective exposure to information: A critical review",
+            "title-short": "Selective exposure to information",
+            "type": "article-journal",
+            "volume": "31"
         }
     ],
     "project_biblios": [
