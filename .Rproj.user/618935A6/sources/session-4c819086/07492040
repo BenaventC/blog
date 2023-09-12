@@ -1,12 +1,12 @@
 {
-    "id": "94ADF471",
-    "path": "~/_newblog/bloggit/posts/b005_NLPW00/index.qmd",
-    "project_path": "posts/b005_NLPW00/index.qmd",
+    "id": "07492040",
+    "path": "~/_newblog/bloggit/posts/b006_NLPW01/index.qmd",
+    "project_path": "posts/b006_NLPW01/index.qmd",
     "type": "quarto_markdown",
-    "hash": "517754495",
+    "hash": "929051079",
     "contents": "",
     "dirty": false,
-    "created": 1694269289234.0,
+    "created": 1694546174974.0,
     "source_on_save": true,
     "relative_order": 1,
     "properties": {
@@ -16,16 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "23,197",
-        "scrollLine": "16",
-        "rmdVisualModeLocation": "1110:500"
+        "rmdVisualModeLocation": "6:0",
+        "cursorPosition": "3,17",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1694545962,
+    "lastKnownWriteTime": 1694546456,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1694545962617,
+    "last_content_update": 1694546456193,
     "read_only": false,
     "read_only_alternatives": []
 }

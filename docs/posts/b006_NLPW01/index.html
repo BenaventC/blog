@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Christophe Benavent">
-<meta name="dcterms.date" content="2023-09-12">
+<meta name="dcterms.date" content="2023-09-14">
 
-<title>Blog B - NLPWorkshop 12 sept 2023 : Grammaire des données et des graphiques</title>
+<title>Blog B - NLPWorkshop 14 sept 2023 : Grammaire des données et des graphiques</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,9 +79,26 @@ div.csl-indent {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2R79S40E0F"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-2R79S40E0F', { 'anonymize_ip': true});
+</script>
 
 
 <link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Blog B - NLPWorkshop 14 sept 2023 : Grammaire des données et des graphiques">
+<meta property="og:description" content="">
+<meta property="og:image" content="grammar.jpg">
+<meta property="og:site-name" content="Blog B">
+<meta name="twitter:title" content="Blog B - NLPWorkshop 14 sept 2023 : Grammaire des données et des graphiques">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="grammar.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -126,10 +143,13 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">NLPWorkshop 12 sept 2023 : Grammaire des données et des graphiques</h1>
+      <h1 class="title">NLPWorkshop 14 sept 2023 : Grammaire des données et des graphiques</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">NLPworkshop</div>
                 <div class="quarto-category">Méthodes</div>
+                <div class="quarto-category">r</div>
+                <div class="quarto-category">dplyr</div>
+                <div class="quarto-category">ggplot</div>
                 <div class="quarto-category">dataviz</div>
               </div>
                   </div>
@@ -148,7 +168,7 @@ div.csl-indent {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">September 12, 2023</p>
+        <p class="date">September 14, 2023</p>
       </div>
     </div>
     
@@ -166,10 +186,9 @@ div.csl-indent {
 
 
 
-<p>Pour cette première séance de l’année du <strong>NLP Workshop</strong> , on revient aux bases avec deux packages essentiels : dplyr, pour traiter les données, et ggplot2 pour les visualiser. Les deux répondent à une grammaire que <span class="citation" data-cites="wilkinson_grammar_2005">Wilkinson and Wills (<a href="#ref-wilkinson_grammar_2005" role="doc-biblioref">2005</a>)</span> a systématisé pour les graphiques, et que <span class="citation" data-cites="wickham_welcome_2019">Wickham et al. (<a href="#ref-wickham_welcome_2019" role="doc-biblioref">2019</a>)</span> a empaqueté dans la suite tidyverse.</p>
+<p>Pour cette première séance de l’année du <a href="https://benaventc.github.io/blog/posts/b005_NLPW00/"><strong>NLP Workshop</strong></a>, on commence par les bases avec deux packages essentiels : <code>dplyr</code>, pour traiter les données, et <code>ggplot2</code> pour les visualiser. Les deux répondent à une grammaire que <span class="citation" data-cites="wilkinson_grammar_2005">Wilkinson and Wills (<a href="#ref-wilkinson_grammar_2005" role="doc-biblioref">2005</a>)</span> a systématisé pour les graphiques, et que <span class="citation" data-cites="wickham_welcome_2019">Wickham et al. (<a href="#ref-wickham_welcome_2019" role="doc-biblioref">2019</a>)</span> a empaqueté dans la suite <code>tidyverse</code>.</p>
 <p><img src="grammar.jpg" class="img-fluid"></p>
-<p>Le but est de présenter la manière de travailler, pour des données complexes, avec ces deux packages et leur compagnons de tidyverse. Ce sera très pratique, pas trop pédagogique car on ira directement vers des exemples un peu compliqués afin de démontrer la versatilité de ce langage et ses finesses.</p>
-<p>On ne fera pas pour les débutants (à moins qu’ils étudient avant les références), mais pour les spécialistes !</p>
+<p>Le but est de présenter la manière de travailler, pour des données complexes, avec ces deux packages et leur compagnons . Ce sera très pratique, pas trop pédagogique car on ira directement vers des exemples un peu compliqués afin de démontrer la versatilité de ce langage et ses finesses. On ne fera pas pour les débutants (à moins qu’ils étudient avant les références), mais pour les spécialistes !</p>
 
 
 
