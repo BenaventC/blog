@@ -1,0 +1,66 @@
+---
+title: "R Notebook"
+output:
+  RData_file: default
+---
+
+```{r , message=FALSE, warning=FALSE, results = 'hide'}
+library(tidyverse)
+library(stm)
+```
+
+### CAN CHANGE
+
+```{r}
+K = 26 # number of topics
+```
+
+### DO NOT CHANGE
+
+```{r}
+K = 26 # number of topics
+
+FORMULA_RANGE <-paste("1",as.character(K), sep=":")
+PREVALENCE_FORMULA <- as.formula(paste("~", "s(year, df = 5) + Secteur"))
+PREVALENCE_FORMULA_EFFECT <- as.formula( paste(FORMULA_RANGE, paste("~ ", "s(year, df = 5) + Secteur",  collapse="+") ) )
+
+OUTPUT_PATH <- "./"
+OUTPUT_FILE <- sprintf("STM_model_%s.RData", K)
+
+message(PREVALENCE_FORMULA)
+message(PREVALENCE_FORMULA_EFFECT)
+message(OUTPUT_FILE)
+
+df <- read_csv("2014_2022_with_clean_script_stm.csv")%>%
+  group_by(mots_clefs_themes_str )%>%
+  summarise(n=n())
+
+
+```
+
+# Model fit
+
+```{r, eval = FALSE}
+stm_model <- stm::stm(
+                        documents = out$documents, 
+                        vocab = out$vocab,
+                        data = out$meta,
+                        K = K, 
+                        prevalence = PREVALENCE_FORMULA,
+                        verbose = TRUE, # show progress
+                        init.type = "Spectral",
+                        seed = 56,
+                        # max.em.its=10
+                      )
+```
+
+# Change prevalence
+
+```{r}
+stm_effects <- stm::estimateEffect(PREVALENCE_FORMULA_EFFECT,
+      stmobj = stm_model, metadata = out$meta)
+```
+
+```{r}
+save(stm_model, stm_effects, out, file = paste0(OUTPUT_PATH, OUTPUT_FILE))
+```

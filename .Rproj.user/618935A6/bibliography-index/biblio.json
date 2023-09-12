@@ -1,5 +1,1346 @@
 {
-    "sources": [],
+    "sources": [
+        {
+            "DOI": "10.1080/01621459.2016.1141684",
+            "URL": "https://www.tandfonline.com/doi/full/10.1080/01621459.2016.1141684",
+            "author": [
+                {
+                    "family": "Roberts",
+                    "given": "Margaret E."
+                },
+                {
+                    "family": "Stewart",
+                    "given": "Brandon M."
+                },
+                {
+                    "family": "Airoldi",
+                    "given": "Edoardo M."
+                }
+            ],
+            "container-title": "Journal of the American Statistical Association",
+            "id": "roberts_model_2016",
+            "issue": "515",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        7,
+                        2
+                    ]
+                ]
+            },
+            "page": "988-1003",
+            "title": "A model of text for experimentation in the social sciences",
+            "type": "article-journal",
+            "volume": "111"
+        },
+        {
+            "DOI": "10.1038/s44159-022-00093-5",
+            "ISSN": "2731-0574",
+            "URL": "https://www.nature.com/articles/s44159-022-00093-5",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Jost",
+                    "given": "John T."
+                },
+                {
+                    "family": "Baldassarri",
+                    "given": "Delia S."
+                },
+                {
+                    "family": "Druckman",
+                    "given": "James N."
+                }
+            ],
+            "container-title": "Nature Reviews Psychology",
+            "container-title-short": "Nat Rev Psychol",
+            "id": "jost_cognitivemotivational_2022",
+            "issue": "10",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        8,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "560-576",
+            "title": "Cognitive–motivational mechanisms of political polarization in social-communicative contexts",
+            "type": "article-journal",
+            "volume": "1"
+        },
+        {
+            "ISBN": "978-0-387-24544-7",
+            "author": [
+                {
+                    "family": "Wilkinson",
+                    "given": "Leland"
+                },
+                {
+                    "family": "Wills",
+                    "given": "Graham"
+                }
+            ],
+            "collection-title": "Statistics and computing",
+            "edition": "2nd ed",
+            "id": "wilkinson_grammar_2005",
+            "issued": {
+                "date-parts": [
+                    [
+                        2005
+                    ]
+                ]
+            },
+            "keyword": "Graphic methods Data processing, Statistics",
+            "number-of-pages": "690",
+            "publisher": "Springer",
+            "publisher-place": "New York",
+            "title": "The grammar of graphics",
+            "type": "book"
+        },
+        {
+            "DOI": "10.21105/joss.01686",
+            "ISSN": "2475-9066",
+            "URL": "https://joss.theoj.org/papers/10.21105/joss.01686",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wickham",
+                    "given": "Hadley"
+                },
+                {
+                    "family": "Averick",
+                    "given": "Mara"
+                },
+                {
+                    "family": "Bryan",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Chang",
+                    "given": "Winston"
+                },
+                {
+                    "family": "McGowan",
+                    "given": "Lucy"
+                },
+                {
+                    "family": "François",
+                    "given": "Romain"
+                },
+                {
+                    "family": "Grolemund",
+                    "given": "Garrett"
+                },
+                {
+                    "family": "Hayes",
+                    "given": "Alex"
+                },
+                {
+                    "family": "Henry",
+                    "given": "Lionel"
+                },
+                {
+                    "family": "Hester",
+                    "given": "Jim"
+                },
+                {
+                    "family": "Kuhn",
+                    "given": "Max"
+                },
+                {
+                    "family": "Pedersen",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Miller",
+                    "given": "Evan"
+                },
+                {
+                    "family": "Bache",
+                    "given": "Stephan"
+                },
+                {
+                    "family": "Müller",
+                    "given": "Kirill"
+                },
+                {
+                    "family": "Ooms",
+                    "given": "Jeroen"
+                },
+                {
+                    "family": "Robinson",
+                    "given": "David"
+                },
+                {
+                    "family": "Seidel",
+                    "given": "Dana"
+                },
+                {
+                    "family": "Spinu",
+                    "given": "Vitalie"
+                },
+                {
+                    "family": "Takahashi",
+                    "given": "Kohske"
+                },
+                {
+                    "family": "Vaughan",
+                    "given": "Davis"
+                },
+                {
+                    "family": "Wilke",
+                    "given": "Claus"
+                },
+                {
+                    "family": "Woo",
+                    "given": "Kara"
+                },
+                {
+                    "family": "Yutani",
+                    "given": "Hiroaki"
+                }
+            ],
+            "container-title": "Journal of Open Source Software",
+            "container-title-short": "JOSS",
+            "id": "wickham_welcome_2019",
+            "issue": "43",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        11,
+                        21
+                    ]
+                ]
+            },
+            "page": "1686",
+            "title": "Welcome to the tidyverse",
+            "type": "article-journal",
+            "volume": "4"
+        },
+        {
+            "DOI": "10.1126/science.1173299",
+            "ISSN": "0036-8075, 1095-9203",
+            "URL": "https://www.sciencemag.org/lookup/doi/10.1126/science.1173299",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        11
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Barabási",
+                    "given": "Albert-László"
+                }
+            ],
+            "container-title": "Science",
+            "container-title-short": "Science",
+            "id": "barabasi_scale-free_2009",
+            "issue": "5939",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        7,
+                        24
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "412-413",
+            "title": "Scale-free networks: A decade and beyond",
+            "title-short": "Scale-free networks",
+            "type": "article-journal",
+            "volume": "325"
+        },
+        {
+            "DOI": "10.1007/s10462-011-9278-y",
+            "ISSN": "0269-2821, 1573-7462",
+            "URL": "http://link.springer.com/10.1007/s10462-011-9278-y",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        11
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Lee",
+                    "given": "KangWoo"
+                },
+                {
+                    "family": "Choo",
+                    "given": "Hyunseung"
+                }
+            ],
+            "container-title": "Artificial Intelligence Review",
+            "container-title-short": "Artif Intell Rev",
+            "id": "lee_critical_2013",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013,
+                        6
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "27-50",
+            "title": "A critical review of selective attention: An interdisciplinary perspective",
+            "title-short": "A critical review of selective attention",
+            "type": "article-journal",
+            "volume": "40"
+        },
+        {
+            "DOI": "10.1038/s41593-019-0549-2",
+            "ISSN": "1097-6256, 1546-1726",
+            "URL": "https://www.nature.com/articles/s41593-019-0549-2",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        11
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Kappes",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "Harvey",
+                    "given": "Ann H."
+                },
+                {
+                    "family": "Lohrenz",
+                    "given": "Terry"
+                },
+                {
+                    "family": "Montague",
+                    "given": "P. Read"
+                },
+                {
+                    "family": "Sharot",
+                    "given": "Tali"
+                }
+            ],
+            "container-title": "Nature Neuroscience",
+            "container-title-short": "Nat Neurosci",
+            "id": "kappes_confirmation_2020",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "130-137",
+            "title": "Confirmation bias in the utilization of others’ opinion strength",
+            "type": "article-journal",
+            "volume": "23"
+        },
+        {
+            "DOI": "10.1126/science.abp9364",
+            "ISSN": "0036-8075, 1095-9203",
+            "URL": "https://www.science.org/doi/10.1126/science.abp9364",
+            "abstract": "We investigated the effects of Facebook’s and Instagram’s feed algorithms during the 2020 US election. We assigned a sample of consenting users to reverse-chronologically-ordered feeds instead of the default algorithms. Moving users out of algorithmic feeds substantially decreased the time they spent on the platforms and their activity. The chronological feed also affected exposure to content: The amount of political and untrustworthy content they saw increased on both platforms, the amount of content classified as uncivil or containing slur words they saw decreased on Facebook, and the amount of content from moderate friends and sources with ideologically mixed audiences they saw increased on Facebook. Despite these substantial changes in users’ on-platform experience, the chronological feed did not significantly alter levels of issue polarization, affective polarization, political knowledge, or other key attitudes during the 3-month study period.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Guess",
+                    "given": "Andrew M."
+                },
+                {
+                    "family": "Malhotra",
+                    "given": "Neil"
+                },
+                {
+                    "family": "Pan",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Barberá",
+                    "given": "Pablo"
+                },
+                {
+                    "family": "Allcott",
+                    "given": "Hunt"
+                },
+                {
+                    "family": "Brown",
+                    "given": "Taylor"
+                },
+                {
+                    "family": "Crespo-Tenorio",
+                    "given": "Adriana"
+                },
+                {
+                    "family": "Dimmery",
+                    "given": "Drew"
+                },
+                {
+                    "family": "Freelon",
+                    "given": "Deen"
+                },
+                {
+                    "family": "Gentzkow",
+                    "given": "Matthew"
+                },
+                {
+                    "family": "González-Bailón",
+                    "given": "Sandra"
+                },
+                {
+                    "family": "Kennedy",
+                    "given": "Edward"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Young Mie"
+                },
+                {
+                    "family": "Lazer",
+                    "given": "David"
+                },
+                {
+                    "family": "Moehler",
+                    "given": "Devra"
+                },
+                {
+                    "family": "Nyhan",
+                    "given": "Brendan"
+                },
+                {
+                    "family": "Rivera",
+                    "given": "Carlos Velasco"
+                },
+                {
+                    "family": "Settle",
+                    "given": "Jaime"
+                },
+                {
+                    "family": "Thomas",
+                    "given": "Daniel Robert"
+                },
+                {
+                    "family": "Thorson",
+                    "given": "Emily"
+                },
+                {
+                    "family": "Tromble",
+                    "given": "Rebekah"
+                },
+                {
+                    "family": "Wilkins",
+                    "given": "Arjun"
+                },
+                {
+                    "family": "Wojcieszak",
+                    "given": "Magdalena"
+                },
+                {
+                    "family": "Xiong",
+                    "given": "Beixian"
+                },
+                {
+                    "family": "De Jonge",
+                    "given": "Chad Kiewiet"
+                },
+                {
+                    "family": "Franco",
+                    "given": "Annie"
+                },
+                {
+                    "family": "Mason",
+                    "given": "Winter"
+                },
+                {
+                    "family": "Stroud",
+                    "given": "Natalie Jomini"
+                },
+                {
+                    "family": "Tucker",
+                    "given": "Joshua A."
+                }
+            ],
+            "container-title": "Science",
+            "container-title-short": "Science",
+            "id": "guess_how_2023",
+            "issue": "6656",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        7,
+                        28
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "398-404",
+            "title": "How do social media feed algorithms affect attitudes and behavior in an election campaign?",
+            "type": "article-journal",
+            "volume": "381"
+        },
+        {
+            "DOI": "10.1073/pnas.1320040111",
+            "ISSN": "0027-8424, 1091-6490",
+            "URL": "https://pnas.org/doi/full/10.1073/pnas.1320040111",
+            "abstract": "SignificanceWe show, via a massive ( N = 689,003) experiment on Facebook, that emotional states can be transferred to others via emotional contagion, leading people to experience the same emotions without their awareness. We provide experimental evidence that emotional contagion occurs without direct interaction between people (exposure to a friend expressing an emotion is sufficient), and in the complete absence of nonverbal cues.,Emotional states can be transferred to others via emotional contagion, leading people to experience the same emotions without their awareness. Emotional contagion is well established in laboratory experiments, with people transferring positive and negative emotions to others. Data from a large real-world social network, collected over a 20-y period suggests that longer-lasting moods (e.g., depression, happiness) can be transferred through networks [Fowler JHJH, Christakis NANA (2008) BMJBMJ 337:a2338], although the results are controversial. In an experiment with people who use Facebook, we test whether emotional contagion occurs outside of in-person interaction between individuals by reducing the amount of emotional content in the News Feed. When positive expressions were reduced, people produced fewer positive posts and more negative posts; when negative expressions were reduced, the opposite pattern occurred. These results indicate that emotions expressed by others on Facebook influence our own emotions, constituting experimental evidence for massive-scale contagion via social networks. This work also suggests that, in contrast to prevailing assumptions, in-person interaction and nonverbal cues are not strictly necessary for emotional contagion, and that the observation of others’ positive experiences constitutes a positive experience for people.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Kramer",
+                    "given": "Adam D. I."
+                },
+                {
+                    "family": "Guillory",
+                    "given": "Jamie E."
+                },
+                {
+                    "family": "Hancock",
+                    "given": "Jeffrey T."
+                }
+            ],
+            "container-title": "Proceedings of the National Academy of Sciences",
+            "container-title-short": "Proc. Natl. Acad. Sci. U.S.A.",
+            "id": "kramer_experimental_2014",
+            "issue": "24",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        6,
+                        17
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "8788-8790",
+            "title": "Experimental evidence of massive-scale emotional contagion through social networks",
+            "type": "article-journal",
+            "volume": "111"
+        },
+        {
+            "ISBN": "978-1-59420-300-8 978-0-241-95452-2",
+            "author": [
+                {
+                    "family": "Pariser",
+                    "given": "Eli"
+                }
+            ],
+            "id": "pariser_filter_2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "publisher": "Penguin books",
+            "publisher-place": "London",
+            "title": "The filter bubble: What the internet is hiding from you",
+            "title-short": "The filter bubble",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1038/s41586-023-06297-w",
+            "ISSN": "0028-0836, 1476-4687",
+            "URL": "https://www.nature.com/articles/s41586-023-06297-w",
+            "abstract": "AbstractMany critics raise concerns about the prevalence of “echo chambers”echo chambers on social media and their potential role in increasing political polarization. However, the lack of available data and the challenges of conducting large-scale field experiments have made it difficult to assess the scope of the problem 1,2 . Here we present data from 2020 for the entire population of active adult Facebook users in the USAUSA showing that content from “like-minded”like-minded sources constitutes the majority of what people see on the platform, although political information and news represent only a small fraction of these exposures. To evaluate a potential response to concerns about the effects of echo chambers, we conducted a multi-wave field experiment on Facebook among 23,377 users for whom we reduced exposure to content from like-minded sources during the 2020 USUS presidential election by about one-third. We found that the intervention increased their exposure to content from cross-cutting sources and decreased exposure to uncivil language, but had no measurable effects on eight preregistered attitudinal measures such as affective polarization, ideological extremity, candidate evaluations and belief in false claims. These precisely estimated results suggest that although exposure to content from like-minded sources on social media is common, reducing its prevalence during the 2020 USUS presidential election did not correspondingly reduce polarization in beliefs or attitudes.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Nyhan",
+                    "given": "Brendan"
+                },
+                {
+                    "family": "Settle",
+                    "given": "Jaime"
+                },
+                {
+                    "family": "Thorson",
+                    "given": "Emily"
+                },
+                {
+                    "family": "Wojcieszak",
+                    "given": "Magdalena"
+                },
+                {
+                    "family": "Barberá",
+                    "given": "Pablo"
+                },
+                {
+                    "family": "Chen",
+                    "given": "Annie Y."
+                },
+                {
+                    "family": "Allcott",
+                    "given": "Hunt"
+                },
+                {
+                    "family": "Brown",
+                    "given": "Taylor"
+                },
+                {
+                    "family": "Crespo-Tenorio",
+                    "given": "Adriana"
+                },
+                {
+                    "family": "Dimmery",
+                    "given": "Drew"
+                },
+                {
+                    "family": "Freelon",
+                    "given": "Deen"
+                },
+                {
+                    "family": "Gentzkow",
+                    "given": "Matthew"
+                },
+                {
+                    "family": "González-Bailón",
+                    "given": "Sandra"
+                },
+                {
+                    "family": "Guess",
+                    "given": "Andrew M."
+                },
+                {
+                    "family": "Kennedy",
+                    "given": "Edward"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Young Mie"
+                },
+                {
+                    "family": "Lazer",
+                    "given": "David"
+                },
+                {
+                    "family": "Malhotra",
+                    "given": "Neil"
+                },
+                {
+                    "family": "Moehler",
+                    "given": "Devra"
+                },
+                {
+                    "family": "Pan",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Thomas",
+                    "given": "Daniel Robert"
+                },
+                {
+                    "family": "Tromble",
+                    "given": "Rebekah"
+                },
+                {
+                    "family": "Rivera",
+                    "given": "Carlos Velasco"
+                },
+                {
+                    "family": "Wilkins",
+                    "given": "Arjun"
+                },
+                {
+                    "family": "Xiong",
+                    "given": "Beixian"
+                },
+                {
+                    "family": "De Jonge",
+                    "given": "Chad Kiewiet"
+                },
+                {
+                    "family": "Franco",
+                    "given": "Annie"
+                },
+                {
+                    "family": "Mason",
+                    "given": "Winter"
+                },
+                {
+                    "family": "Stroud",
+                    "given": "Natalie Jomini"
+                },
+                {
+                    "family": "Tucker",
+                    "given": "Joshua A."
+                }
+            ],
+            "container-title": "Nature",
+            "container-title-short": "Nature",
+            "id": "nyhan_like-minded_2023",
+            "issue": "7972",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        3
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "137-144",
+            "title": "Like-minded sources on facebook are prevalent but not polarizing",
+            "type": "article-journal",
+            "volume": "620"
+        },
+        {
+            "DOI": "10.1126/science.ade7138",
+            "ISSN": "0036-8075, 1095-9203",
+            "URL": "https://www.science.org/doi/10.1126/science.ade7138",
+            "abstract": "Does Facebook enable ideological segregation in political news consumption? We analyzed exposure to news during the US 2020 election using aggregated data for 208 million US Facebook users. We compared the inventory of all political news that users could have seen in their feeds with the information that they saw (after algorithmic curation) and the information with which they engaged. We show that (i) ideological segregation is high and increases as we shift from potential exposure to actual exposure to engagement; (ii) there is an asymmetry between conservative and liberal audiences, with a substantial corner of the news ecosystem consumed exclusively by conservatives; and (iii) most misinformation, as identified by Meta’s Third-Party Fact-Checking Program, exists within this homogeneously conservative corner, which has no equivalent on the liberal side. Sources favored by conservative audiences were more prevalent on Facebook’s news ecosystem than those favored by liberals.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "González-Bailón",
+                    "given": "Sandra"
+                },
+                {
+                    "family": "Lazer",
+                    "given": "David"
+                },
+                {
+                    "family": "Barberá",
+                    "given": "Pablo"
+                },
+                {
+                    "family": "Zhang",
+                    "given": "Meiqing"
+                },
+                {
+                    "family": "Allcott",
+                    "given": "Hunt"
+                },
+                {
+                    "family": "Brown",
+                    "given": "Taylor"
+                },
+                {
+                    "family": "Crespo-Tenorio",
+                    "given": "Adriana"
+                },
+                {
+                    "family": "Freelon",
+                    "given": "Deen"
+                },
+                {
+                    "family": "Gentzkow",
+                    "given": "Matthew"
+                },
+                {
+                    "family": "Guess",
+                    "given": "Andrew M."
+                },
+                {
+                    "family": "Iyengar",
+                    "given": "Shanto"
+                },
+                {
+                    "family": "Kim",
+                    "given": "Young Mie"
+                },
+                {
+                    "family": "Malhotra",
+                    "given": "Neil"
+                },
+                {
+                    "family": "Moehler",
+                    "given": "Devra"
+                },
+                {
+                    "family": "Nyhan",
+                    "given": "Brendan"
+                },
+                {
+                    "family": "Pan",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Rivera",
+                    "given": "Carlos Velasco"
+                },
+                {
+                    "family": "Settle",
+                    "given": "Jaime"
+                },
+                {
+                    "family": "Thorson",
+                    "given": "Emily"
+                },
+                {
+                    "family": "Tromble",
+                    "given": "Rebekah"
+                },
+                {
+                    "family": "Wilkins",
+                    "given": "Arjun"
+                },
+                {
+                    "family": "Wojcieszak",
+                    "given": "Magdalena"
+                },
+                {
+                    "family": "De Jonge",
+                    "given": "Chad Kiewiet"
+                },
+                {
+                    "family": "Franco",
+                    "given": "Annie"
+                },
+                {
+                    "family": "Mason",
+                    "given": "Winter"
+                },
+                {
+                    "family": "Stroud",
+                    "given": "Natalie Jomini"
+                },
+                {
+                    "family": "Tucker",
+                    "given": "Joshua A."
+                }
+            ],
+            "container-title": "Science",
+            "container-title-short": "Science",
+            "id": "gonzalez-bailon_asymmetric_2023",
+            "issue": "6656",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        7,
+                        28
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "392-398",
+            "title": "Asymmetric ideological segregation in exposure to political news on facebook",
+            "type": "article-journal",
+            "volume": "381"
+        },
+        {
+            "DOI": "10.1073/pnas.2025334119",
+            "ISSN": "0027-8424, 1091-6490",
+            "URL": "https://pnas.org/doi/full/10.1073/pnas.2025334119",
+            "abstract": "Significance The role of social media in political discourse has been the topic of intense scholarly and public debate. Politicians and commentators from all sides allege that Twitter’s algorithms amplify their opponents’ voices, or silence theirs. Policy makers and researchers have thus called for increased transparency on how algorithms influence exposure to political content on the platform. Based on a massive-scale experiment involving millions of Twitter users, a fine-grained analysis of political parties in seven countries, and 6.2 million news articles shared in the United States, this study carries out the most comprehensive audit of an algorithmic recommender system and its effects on political content. Results unveil that the political right enjoys higher amplification compared to the political left. , Content on Twitter’s home timeline is selected and ordered by personalization algorithms. By consistently ranking certain content higher, these algorithms may amplify some messages while reducing the visibility of others. There’s been intense public and scholarly debate about the possibility that some political groups benefit more from algorithmic amplification than others. We provide quantitative evidence from a long-running, massive-scale randomized experiment on the Twitter platform that committed a randomized control group including nearly 2 million daily active accounts to a reverse-chronological content feed free of algorithmic personalization. We present two sets of findings. First, we studied tweets by elected legislators from major political parties in seven countries. Our results reveal a remarkably consistent trend: In six out of seven countries studied, the mainstream political right enjoys higher algorithmic amplification than the mainstream political left. Consistent with this overall trend, our second set of findings studying the US media landscape revealed that algorithmic amplification favors right-leaning news sources. We further looked at whether algorithms amplify far-left and far-right political groups more than moderate ones; contrary to prevailing public belief, we did not find evidence to support this hypothesis. We hope our findings will contribute to an evidence-based debate on the role personalization algorithms play in shaping political content consumption.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Huszár",
+                    "given": "Ferenc"
+                },
+                {
+                    "family": "Ktena",
+                    "given": "Sofia Ira"
+                },
+                {
+                    "family": "O’Brien",
+                    "given": "Conor"
+                },
+                {
+                    "family": "Belli",
+                    "given": "Luca"
+                },
+                {
+                    "family": "Schlaikjer",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Hardt",
+                    "given": "Moritz"
+                }
+            ],
+            "container-title": "Proceedings of the National Academy of Sciences",
+            "container-title-short": "Proc. Natl. Acad. Sci. U.S.A.",
+            "id": "huszar_algorithmic_2022",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        1,
+                        5
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "e2025334119",
+            "title": "Algorithmic amplification of politics on twitter",
+            "type": "article-journal",
+            "volume": "119"
+        },
+        {
+            "DOI": "10.1086/599247",
+            "ISSN": "0002-9602, 1537-5390",
+            "URL": "http://www.journals.uchicago.edu/doi/10.1086/599247",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Kossinets",
+                    "given": "Gueorgi"
+                },
+                {
+                    "family": "Watts",
+                    "given": "Duncan J."
+                }
+            ],
+            "container-title": "American Journal of Sociology",
+            "container-title-short": "American Journal of Sociology",
+            "id": "kossinets_origins_2009",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        9
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "405-450",
+            "title": "Origins of homophily in an evolving social network",
+            "type": "article-journal",
+            "volume": "115"
+        },
+        {
+            "DOI": "10.1111/bjso.12286",
+            "ISSN": "01446665",
+            "URL": "https://onlinelibrary.wiley.com/doi/10.1111/bjso.12286",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Geschke",
+                    "given": "Daniel"
+                },
+                {
+                    "family": "Lorenz",
+                    "given": "Jan"
+                },
+                {
+                    "family": "Holtz",
+                    "given": "Peter"
+                }
+            ],
+            "container-title": "British Journal of Social Psychology",
+            "container-title-short": "Br. J. Soc. Psychol.",
+            "id": "geschke_triple-filter_2019",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "129-149",
+            "title": "The triple-filter bubble: Using agent-based modelling to test a meta-theoretical framework for the emergence of filter bubbles and echo chambers",
+            "title-short": "The triple-filter bubble",
+            "type": "article-journal",
+            "volume": "58"
+        },
+        {
+            "DOI": "10.1037/1089-2680.2.2.175",
+            "ISSN": "1089-2680, 1939-1552",
+            "URL": "http://journals.sagepub.com/doi/10.1037/1089-2680.2.2.175",
+            "abstract": "Confirmation bias, as the term is typically used in the psychological literature, connotes the seeking or interpreting of evidence in ways that are partial to existing beliefs, expectations, or a hypothesis in hand. The author reviews evidence of such a bias in a variety of guises and gives examples of its operation in several practical contexts. Possible explanations are considered, and the question of its utility or disutility is discussed.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Nickerson",
+                    "given": "Raymond S."
+                }
+            ],
+            "container-title": "Review of General Psychology",
+            "container-title-short": "Review of General Psychology",
+            "id": "nickerson_confirmation_1998",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1998,
+                        6
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "175-220",
+            "title": "Confirmation bias: A ubiquitous phenomenon in many guises",
+            "title-short": "Confirmation bias",
+            "type": "article-journal",
+            "volume": "2"
+        },
+        {
+            "DOI": "10.1086/668234",
+            "ISSN": "0093-5301, 1537-5277",
+            "URL": "https://academic.oup.com/jcr/article-lookup/doi/10.1086/668234",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Janiszewski",
+                    "given": "Chris"
+                },
+                {
+                    "family": "Kuo",
+                    "given": "Andrew"
+                },
+                {
+                    "family": "Tavassoli",
+                    "given": "Nader T."
+                }
+            ],
+            "container-title": "Journal of Consumer Research",
+            "container-title-short": "J Consum Res",
+            "id": "janiszewski_influence_2013",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013,
+                        4,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "1258-1274",
+            "title": "The influence of selective attention and inattention to products on subsequent choice",
+            "type": "article-journal",
+            "volume": "39"
+        },
+        {
+            "DOI": "10.1177/1745691620984483",
+            "ISSN": "1745-6916, 1745-6924",
+            "URL": "http://journals.sagepub.com/doi/10.1177/1745691620984483",
+            "abstract": "We draw on genetics research to argue that complex psychological phenomena are most likely determined by a multitude of causes and that any individual cause is likely to have only a small effect. Building on this, we highlight the dangers of a publication culture that continues to demand large effects. First, it rewards inflated effects that are unlikely to be real and encourages practices likely to yield such effects. Second, it overlooks the small effects that are most likely to be real, hindering attempts to identify and understand the actual determinants of complex psychological phenomena. We then explain the theoretical and practical relevance of small effects, which can have substantial consequences, especially when considered at scale and over time. Finally, we suggest ways in which scholars can harness these insights to advance research and practices in psychology (i.e., leveraging the power of big data, machine learning, and crowdsourcing science; promoting rigorous preregistration, including prespecifying the smallest effect size of interest; contextualizing effects; changing cultural norms to reward accurate and meaningful effects rather than exaggerated and unreliable effects). Only once small effects are accepted as the norm, rather than the exception, can a reliable and reproducible cumulative psychological science be built.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Götz",
+                    "given": "Friedrich M."
+                },
+                {
+                    "family": "Gosling",
+                    "given": "Samuel D."
+                },
+                {
+                    "family": "Rentfrow",
+                    "given": "Peter J."
+                }
+            ],
+            "container-title": "Perspectives on Psychological Science",
+            "container-title-short": "Perspect Psychol Sci",
+            "id": "gotz_small_2022",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "205-215",
+            "title": "Small effects: The indispensable foundation for a cumulative psychological science",
+            "title-short": "Small effects",
+            "type": "article-journal",
+            "volume": "17"
+        },
+        {
+            "DOI": "10.1177/17456916221100420",
+            "ISSN": "1745-6916, 1745-6924",
+            "URL": "http://journals.sagepub.com/doi/10.1177/17456916221100420",
+            "abstract": "In the January 2022 issue of Perspectives, Götz et al. argued that small effects are “the indispensable foundation for a cumulative psychological science.” They supported their argument by claiming that (a) psychology, like genetics, consists of complex phenomena explained by additive small effects; (b) psychological-research culture rewards large effects, which means small effects are being ignored; and (c) small effects become meaningful at scale and over time. We rebut these claims with three objections: First, the analogy between genetics and psychology is misleading; second, p values are the main currency for publication in psychology, meaning that any biases in the literature are (currently) caused by pressure to publish statistically significant results and not large effects; and third, claims regarding small effects as important and consequential must be supported by empirical evidence or, at least, a falsifiable line of reasoning. If accepted uncritically, we believe the arguments of Götz et al. could be used as a blanket justification for the importance of any and all “small” effects, thereby undermining best practices in effect-size interpretation. We end with guidance on evaluating effect sizes in relative, not absolute, terms.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Primbs",
+                    "given": "Maximilian A."
+                },
+                {
+                    "family": "Pennington",
+                    "given": "Charlotte R."
+                },
+                {
+                    "family": "Lakens",
+                    "given": "Daniël"
+                },
+                {
+                    "family": "Silan",
+                    "given": "Miguel Alejandro A."
+                },
+                {
+                    "family": "Lieck",
+                    "given": "Dwayne S. N."
+                },
+                {
+                    "family": "Forscher",
+                    "given": "Patrick S."
+                },
+                {
+                    "family": "Buchanan",
+                    "given": "Erin M."
+                },
+                {
+                    "family": "Westwood",
+                    "given": "Samuel J."
+                }
+            ],
+            "container-title": "Perspectives on Psychological Science",
+            "container-title-short": "Perspect Psychol Sci",
+            "id": "primbs_are_2023",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        3
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "508-512",
+            "title": "Are small effects the indispensable foundation for a cumulative psychological science? A reply to götz et al. (2022)",
+            "title-short": "Are small effects the indispensable foundation for a cumulative psychological science?",
+            "type": "article-journal",
+            "volume": "18"
+        },
+        {
+            "DOI": "10.1162/rest_a_01160",
+            "ISSN": "0034-6535, 1530-9142",
+            "URL": "https://direct.mit.edu/rest/article/doi/10.1162/rest_a_01160/109262/Cross-Country-Trends-in-Affective-Polarization",
+            "abstract": "Abstract We measure trends in affective polarization in twelve OECD countries over the past four decades. According to our baseline estimates, the US experienced the largest increase in polarization over this period. Five countries experienced a smaller increase in polarization. Six countries experienced a decrease in polarization. We relate trends in polarization to trends in potential explanatory factors.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Boxell",
+                    "given": "Levi"
+                },
+                {
+                    "family": "Gentzkow",
+                    "given": "Matthew"
+                },
+                {
+                    "family": "Shapiro",
+                    "given": "Jesse M."
+                }
+            ],
+            "container-title": "The Review of Economics and Statistics",
+            "id": "boxell_cross-country_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        1,
+                        25
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "1-60",
+            "title": "Cross-country trends in affective polarization",
+            "type": "article-journal"
+        },
+        {
+            "ISBN": "2-13-084746-3",
+            "author": [
+                {
+                    "family": "Duvoux",
+                    "given": "Nicolas"
+                }
+            ],
+            "id": "duvoux_avenir_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "number-of-pages": "400",
+            "publisher": "PUF",
+            "title": "L’avenir confisqué: Inégalités de temps vécu, classes sociales et patrimoine",
+            "title-short": "L’avenir confisqué",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1086/267513",
+            "ISSN": "0033362X",
+            "URL": "https://academic.oup.com/poq/article-lookup/doi/10.1086/267513",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        9,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Sears",
+                    "given": "David O."
+                },
+                {
+                    "family": "Freedman",
+                    "given": "Jonathan L."
+                }
+            ],
+            "container-title": "Public Opinion Quarterly",
+            "id": "sears_selective_1967",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1967
+                    ]
+                ]
+            },
+            "page": "194",
+            "title": "Selective exposure to information: A critical review",
+            "title-short": "Selective exposure to information",
+            "type": "article-journal",
+            "volume": "31"
+        }
+    ],
     "project_biblios": [
         "blog.bib"
     ]
