@@ -7,6 +7,6 @@ categories: [NLPworkshop, Méthodes, r, dplyr, ggplot, dataviz]
 
 Pour cette première séance de l'année du [**NLP Workshop**](https://benaventc.github.io/blog/posts/b005_NLPW00/), on commence par les bases avec deux packages essentiels : `dplyr`, pour traiter les données, et `ggplot2` pour les visualiser. Les deux répondent à une grammaire que @wilkinson_grammar_2005 a systématisé pour les graphiques, et que @wickham_welcome_2019 a empaqueté dans la suite `tidyverse`.
 
-![](grammar.jpg)
+![Grammaire des données et des graphiques](grammar.jpg)
 
 Le but est de présenter la manière de travailler, pour des données complexes, avec ces deux packages et leur compagnons . Ce sera très pratique, pas trop pédagogique car on ira directement vers des exemples un peu compliqués afin de démontrer la versatilité de ce langage et ses finesses. On ne fera pas pour les débutants (à moins qu'ils étudient avant les références), mais pour les spécialistes !
