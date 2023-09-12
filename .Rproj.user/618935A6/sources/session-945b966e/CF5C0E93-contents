@@ -1,0 +1,383 @@
+---
+title: "Rendu final : Plateforme musique"
+format: html
+editor: visual
+---
+
+## IMPORTER LES LIBRAIRIES
+
+```{r 00}
+library(tidyverse)
+library(ggplot2)
+library(FactoMineR)
+library(factoextra)
+library(ggcorrplot)
+library(jtools) 
+library(dendextend)
+```
+
+## IMPORTER LA BASE DE DONNÉES
+
+```{r 00b}
+#importer le fichier 
+df <- read_csv("plateformes3.csv") %>%
+
+#renommer le nom des colonnes
+  rename(ID=1,
+         Rock=2,
+         PopInter=3,
+         HipHop=4,
+         World=5,
+         Salsa=6,
+         Classique=7,
+         Techno=8,
+         HardRock=9,
+         Baroque=10,
+         Folk=11,
+         Reggae=12,
+         Chanson_Française=13,
+         RockAlt=14,
+         Dance=15,
+         Jazz=16,
+         AfroPop=17,
+         Opera=18,
+         Arabic=19,
+         Blues=20,
+         JK_pop=21,
+         Rap=22,
+         SoulFunk=23,
+         S_travail=24, 
+         S_Live=25, 
+         S_Voiture=26, 
+         S_Menage=27, 
+         S_Ami=28, 
+         S_Bars=29, 
+         S_Transport=30, 
+         S_Lire=31, 
+         S_Douche=32,
+         P_Youtube=42,
+         P_Spotify=43,
+         P_Deezer=44,
+         P_Souncloud=45,
+         P_Bandcamp=46, 
+         P_Discog=47,
+         P_Tidal=48,
+         P_Amazon=49,
+         P_Mixcloud=50,
+         P_AppleM=51,
+         P_Qobuz=52,
+         P_Pandora=53,
+         P_Netease=54,
+         DJing=55,
+         Instru_Classique=56,
+         Instru_Elec=57,
+         Playlist=58,
+         Danser=59,
+         Telecharger=60,
+         Vinyls=61,
+         Jouer_groupe=62,
+         Lire_magazine=63,
+         Abonnement=64,
+         Danse_amateur=65,
+         Suivre_musiciens_RS=66,
+         Composer_musique=67,
+         Time=68,
+         Spending=69,
+         Value=70, 
+         Age=71,
+         Education=72,
+         Genre=73
+         )
+```
+
+## ANALYSE DE LA POPULATION
+
+```{r 01}
+#Sélectionner la colonne et attribuer les données à 'df_age'
+df_Age <- df %>% 
+  select(Age)
+
+#recoder et ordonner les modalités d'âge 
+df_Age$Age<-factor(df_Age$Age, ordered = TRUE, 
+                                levels = c("moins de 18 ans", "de 18 à 20 ans",
+                                           "de 21 à 25 ans", "de 26 à 30 ans",
+                                           "de 31 à 40 ans", "de 41 à 60 ans",
+                                           "plus de 60 ans"))
+#color palette
+col<-c("Coral","Pink","Gold","Orange")
+
+#transformer la table en dataframe
+foo<- as.data.frame(table(df_Age$Age))
+
+#Filtrer les données pour les participants de genre féminin
+df_female <- subset(df, Genre == "Féminin")
+
+# Filtrer les données pour les participants de genre masculin
+df_male <- subset(df, Genre == "Masculin")
+
+# realiser le graphique
+ggplot(df, aes(x = Age, fill = Genre)) +
+  geom_bar(position = "dodge", show.legend = TRUE) +
+  scale_fill_manual(values = c("Féminin" = "Pink", "Masculin" = "Dark green")) +
+  coord_flip() +
+  labs(title = "Répartition par genre et par tranche d'âge", x = NULL, y = NULL) +
+  theme(legend.position = "bottom")
+```
+
+## FRÉQUENCE DE SITUATIONS D'ÉCOUTES MUSICALES
+
+```{r 02}
+
+# Affecter la table des données à 'df_situations_ecoutes'
+df_situations_ecoutes <- df %>%
+  # Sélectionner les colonnes correspondant aux plateformes
+  select(1, 24:32) %>% 
+  pivot_longer(-ID, names_to = "variable", values_to = "value")
+
+# Afficher le tableau de fréquences des valeurs
+table(df_situations_ecoutes$value)
+
+# Calculer le nombre d'occurrences pour chaque combinaison de variable et de valeur
+df_situations_ecoutes <- df_situations_ecoutes %>%
+  group_by(variable, value) %>%
+  summarise(count = n()) %>%
+  ungroup()
+
+
+# Réaliser le graphique
+ggplot(df_situations_ecoutes, aes(x = reorder(variable, count), y = count, group = value, fill = value)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = c("Souvent" = "darkgreen", "Parfois" = "coral","Jamais" = "red"),name = "À quelle fréquence")+
+  coord_flip() +
+  labs(title = "Fréquence de situations d'écoutes musicales", x = "Situations d'écoutes musicales", y = "Nombre de personnes") +
+  theme(legend.position = "bottom")
+
+```
+
+## FRÉQUENCE D'USAGE PAR PLATEFORME
+
+```{r 02}
+# Affecter la table des données à 'df_plateformes'
+df_plateformes <- df %>%
+
+# Sélectionner les colonnes correspondant aux plateformes
+  select(1, 42:54) %>% 
+  pivot_longer(-ID, names_to = "variable", values_to = "value")
+
+# Afficher le tableau de fréquences des valeurs
+table(df_plateformes)
+
+# Calculer le nombre d'occurrences pour chaque combinaison de variable et de valeur
+df_plateformes <- df_plateformes %>%
+  group_by(variable, value) %>%
+  summarise(count = n()) %>%
+  ungroup()
+
+# Réaliser le graphique
+ggplot(df_plateformes, aes(x = reorder(variable, count), y = count, group = value, fill = value)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = c("Souvent" = "darkgreen", "Parfois" = "Gold2","Jamais" = "red"),name = "À quelle fréquence")+
+  coord_flip() +
+  labs(title = "Fréquence d'usage par plateforme", x = "Nom des plateformes", y = "Nombre de personnes") +
+  theme(legend.position = "bottom")
+
+```
+
+## FRÉQUENCE D'USAGE PAR PLATEFORME ET DES SITUATIONS D'ÉCOUTE
+
+Ce graphique met en avant les différentes situations d'écoute musicale et les plateformes musicales utilisées de notre échantillon.
+
+Concernant les situations d'écoute, l'analyse montre que les individus écoutent de la musique, le plus souvent, dans leur voiture, lorsqu'ils font le ménage et dans les transports. À l'inverse, les individus écoutent presque jamais de la musique lors de la lecture.
+
+Concernant les plateformes pour écouter de la musique, Spotify arrive en tête, suivi par Youtube et enfin Deeze.
+
+Nous pouvons supposer que les plateformes musicales sont le plus utilisés pendant les trajets, que ce soit dans une voiture ou dans les transports, ou lorsque les individus réalisent d'une autre tâche tel que le ménage.
+
+```{r 04}
+# Affecter la table des données à 'crt_plateforme_situation'
+crt_plateforme_situation <- df %>%
+
+# Sélectionner les colonnes correspondant aux plateformes
+  select(ID,
+         S_travail, 
+         S_Live, 
+         S_Voiture, 
+         S_Menage, 
+         S_Ami, 
+         S_Bars, 
+         S_Transport, 
+         S_Lire, 
+         S_Douche,
+         P_Youtube,
+         P_Spotify,
+         P_Deezer,
+         P_Souncloud,
+         P_Bandcamp, 
+         P_Discog,
+         P_Tidal,
+         P_Amazon,
+         P_Mixcloud,
+         P_AppleM,
+         P_Qobuz,
+         P_Pandora,
+         P_Netease) %>%
+  pivot_longer(-ID, names_to = "variable", values_to = "value")
+
+# Afficher le tableau de fréquences des valeurs
+table(crt_plateforme_situation$value)
+
+# Conversion de la variable "value" en facteur avec des niveaux spécifiques 
+crt_plateforme_situation$value <- factor(crt_plateforme_situation$value, levels = c("Jamais", "Parfois", "Souvent"))
+
+# Calculer le nombre d'occurrences pour chaque combinaison de variable et de valeur
+crt_plateforme_situation <- crt_plateforme_situation %>%
+  group_by(variable, value) %>%
+  summarise(n = n())
+
+# Convertir la variable 'n' en type numérique
+crt_plateforme_situation$n <- as.numeric(crt_plateforme_situation$n)
+
+# Réaliser le graphique
+ggplot(crt_plateforme_situation, aes(x = reorder(variable, n), y = n, group = value)) +
+  geom_bar(stat = "identity", aes(fill = value)) +
+  coord_flip() +
+  labs(x = NULL, y = NULL) +
+  scale_fill_manual(values = c("Souvent" = "darkgreen", "Parfois" = "gold2", "Jamais" = "red"), name = "À quelle fréquence")+ 
+  labs(title = "Fréquence d'usage par plateforme et des situations d'écoute", x = "Situation d'écoute & Plateformes", y = "Nombre de personnes") +
+  theme(legend.position = "bottom")
+
+
+```
+
+## CORRÉLATION ENTRE PLATEFORMES D'ÉCOUTE ET SITUATIONS D'ÉCOUTE
+
+```{r 05}
+# Affecter la table des données à 'crt_plateforme_situation'
+crt_plateforme_situation <- df %>%
+  select(ID,
+         S_travail, 
+         S_Live, 
+         S_Voiture, 
+         S_Menage, 
+         S_Ami, 
+         S_Bars, 
+         S_Transport, 
+         S_Lire, 
+         S_Douche,
+         P_Youtube,
+         P_Spotify,
+         P_Deezer,
+         P_Souncloud,
+         P_Bandcamp, 
+         P_Discog,
+         P_Tidal,
+         P_Amazon,
+         P_Mixcloud,
+         P_AppleM,
+         P_Qobuz,
+         P_Pandora,
+         P_Netease) %>%
+  pivot_longer(-ID, names_to = "variable", values_to = "value")
+
+# Afficher le tableau de fréquences des valeurs
+table(crt_plateforme_situation$value)
+
+# Conversion de la variable "value" en facteur avec des niveaux spécifiques 
+crt_plateforme_situation$value <- factor(crt_plateforme_situation$value, levels = c("Jamais", "Parfois", "Souvent"))
+
+crt_plateforme_situation$value2 <- NA
+crt_plateforme_situation$value2[crt_plateforme_situation$value == "Jamais"] <- 1
+crt_plateforme_situation$value2[crt_plateforme_situation$value == "Parfois"] <- 2
+crt_plateforme_situation$value2[crt_plateforme_situation$value == "Souvent"] <- 3
+
+crt_plateforme_situation <- crt_plateforme_situation %>%
+  select(-value) %>%
+  pivot_wider(names_from = "variable", values_from = "value2")
+
+# Calcul de la variance de chaque variable
+variances <- apply(crt_plateforme_situation[, 2:22], 2, var)
+
+# Sélection des variables avec une variance non nulle
+selected_variables <- names(variances[variances != 0])
+
+# Sous-ensemble des données avec les variables sélectionnées
+subset_data <- crt_plateforme_situation[, c("ID", selected_variables)]
+
+# Calcul de la matrice de corrélation entre les variables
+corr <- cor(subset_data[, -1])
+
+# Création d'une heatmap de corrélation avec ggcorrplot 
+ggcorrplot(corr, hc.order = TRUE, type = "lower",
+           outline.col = "white", 
+           ggtheme = ggplot2::theme_gray, 
+           colors = c("#6D9EC1", "white", "#E46726"))
+```
+
+## ACP
+
+```{r 05}
+#PCA
+fit<-PCA(crt_plateforme_situation[2:22],ncp = 4,graph = FALSE)
+fviz_eig(fit, addlabels = TRUE, ylim = c(0, 30))
+```
+
+```{r 06}
+fviz_pca_var(fit, axes = c(1, 2), col.var = "cos2",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE # Évite le chevauchement de texte
+             )
+```
+
+## CLUSTERING
+
+```{r 03}
+#data preparation
+# pour le clustering
+
+# Matrice de dissimilarité 
+d <- dist(t(subset_data [2:22]), method = "manhattan")
+
+# Clustering hiérarchique en utilisant la méthode de Ward 
+hc1 <- hclust(d, method = "ward.D2")
+
+#Effectue la découpe de l'arbre hiérarchique en k groupes distincts soit 3 à l'aide de la fonction cutree
+sub_grp <- cutree(hc1, k = 2)
+
+# Réaliser le graphique
+plot(hc1, cex = 0.6, hang = -1)
+
+#Ajoute des rectangles colorés autour des groupes découpés à l'aide de la fonction rect.hclust
+rect.hclust(hc1, k = 3, border = 2:5)
+```
+
+```{r 04}
+# Tracé de la visualisation des clusters 
+fviz_cluster(list(data = d, cluster = sub_grp))
+```
+
+## SEGMENTATION EN 3 GROUPES DISTINCTS
+
+```{r 05}
+# Nombre de groupes 
+k = 3
+
+# Matrice de dissimilarité 
+dbis <- dist(t(subset_data [2:22]), method = "manhattan")
+
+# Clustering hiérarchique en utilisant la méthode de Ward 
+hc2 <- hclust(dbis, method = "ward.D2")
+
+#Effectue la découpe de l'arbre hiérarchique en k groupes distincts soit 3 à l'aide de la fonction cutree
+sub_grp2 <- cutree(hc2, k = k)
+
+# Réaliser le graphique
+plot(hc2, cex = 0.6, hang = -1) 
+
+#Ajoute des rectangles colorés autour des groupes découpés à l'aide de la fonction rect.hclust
+rect.hclust(hc2, k = k, border = 2:5)
+```
+
+```{r 06}
+# Tracé de la visualisation des clusters 
+fviz_cluster( list(data = dbis, cluster = sub_grp2, ellipse.type = "norm") )
+```
