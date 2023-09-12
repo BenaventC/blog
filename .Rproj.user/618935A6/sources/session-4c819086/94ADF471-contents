@@ -1,13 +1,13 @@
 ---
 title: "NLPWorkshop : programme 2023-2024"
 author: "Christophe Benavent"
-date: "2023-08-05"
+date: "2023-09-12"
 categories: [NLPworkshop, Méthodes, NLP, IA, Texte]
 ---
 
-Cet atelier a pour but sur une base bi-mensuelle d'approfondir une technique NLP de manière pratique en r, en Python ou d'autres solutions. Il est délibérément technique, et encourage au partage de code.
+Cet atelier a pour but, sur une base bi-mensuelle, d'approfondir une technique NLP de manière pratique, en r, en Python ou d'autres solutions. Il est délibérément technique, et encourage au partage de code.
 
-![](code.jpg){center}
+![](code.jpg){fig="center"}
 
 Cet atelier est une des activités de la plateforme [ACSS](https://acss-dig.psl.eu/fr), il destiné d'abord à l'équipe et à nos étudiants, master et doctorants qu'on encourage à employer ces méthodes dans leurs travaux. Il reste cependant ouvert, par son format hybride, à quiconque souhaite participer. C'est un lieu de partage de savoir-faire où le trick compte plus que l'idée ;) .
 
@@ -21,7 +21,7 @@ Le format de l'atelier est simple:
 
 Le programme 2023-2024 n'est pas encore tout à fait établi. Voici une liste  de sujets.
 
--   14 septembre 2023 : Dplyr et GGplot : la base de la base ! ( C Benavent - Acss) - confirmé
+-   14 septembre 2023 : [Grammaire des données et des graphiques - quarto, dplyr et ggplot](https://benaventc.github.io/blog/posts/b006_NLPW01/) - Christophe Benavent / Dauphine-psl-Acss - confirmé
 -   28 septembre 2023 : Mise en oeuvre du modèle STM (Bruno Chavez - Acss) - confirmé
 -   12 octobre 2023 : Personnalité de marque : un modèle seed LDA (Julien Monot - Doctorant Nanterre) - en attente
 -   26 octobre 2023 : Etudier la transgression (Sophie Balech - Université de Picardie) - confirmé
@@ -30,10 +30,15 @@ Le programme 2023-2024 n'est pas encore tout à fait établi. Voici une liste  d
 -   7 décembre 2023 : ? Perspective sur les IA generatives ?
 -   21 décembre 2023 : Analyse NLP de question ouvertes - le cas " relation sous tension" - confirmé
 -   11 janvier 2024 : measurement of novelty through text ( Reem ?)
--   25 janvier 2024 : using shiny for a dashboard approach of inference
--   8 février 2024 : using gpu (  ?)
--   metaphor detection ()
+-   25 janvier 2024 : using shiny for a dashboard approach of inference. 
+-   8 février 2024 :
+
+Certains sujets sont souhaités : 
+-   metaphor detection
 -   retour sur le ZeroShot classification.
+-   nlp for abstracts
+-   keyword extraction
+-   LLM applications
 
 ...
 
