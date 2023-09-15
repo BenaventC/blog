@@ -1,0 +1,59 @@
+---
+title: "NLPWorkshop : programme 2023-2024"
+author: "Christophe Benavent"
+date: "2023-09-12"
+categories: [NLPworkshop, Méthodes, NLP, IA, Texte]
+---
+
+Cet atelier a pour but, sur une base bi-mensuelle, d'approfondir une technique NLP de manière pratique, en r, en Python ou d'autres solutions. Il est délibérément technique, et encourage au partage de code.
+
+![](code.jpg){fig="center"}
+
+Cet atelier est une des activités de la plateforme [ACSS](https://acss-dig.psl.eu/fr), il destiné d'abord à l'équipe et à nos étudiants, master et doctorants qu'on encourage à employer ces méthodes dans leurs travaux. Il reste cependant ouvert, par son format hybride, à quiconque souhaite participer. C'est un lieu de partage de savoir-faire où le trick compte plus que l'idée ;) .
+
+Le format de l'atelier est simple:
+
+-   Une durée d'une heure, les jeudi, de 12h15 à 13h15, tous les 15 jours environ à partir du 14 septembre (voir programme ci-dessous). On tentera de les enregistrer.
+
+-   L'intervenant et l'animateur sont présents au bureau P421b à Dauphine. On peut y assister à distance, les liens de connexion seront annoncés par le biais d'une mailing liste. [S'y Inscrire](https://forms.gle/9fU1maqUfz2rDcPe9).
+
+-   Les sujets portent sur tous les aspects du NLP et des techniques qui le servent. Ils sont traités de manière technique sous forme de tutoriel en direct avec exécution, analyse et discussions des codes. les aspects conceptuels seront secondaires. On garde un esprit d'artisan.
+
+Le programme 2023-2024 n'est pas encore tout à fait établi. Voici les premières dates.
+
+-   14 septembre 2023 : [Grammaire des données et des graphiques - quarto, dplyr et ggplot](https://benaventc.github.io/blog/posts/b006_NLPW01/) - Christophe Benavent / Dauphine-Psl-Acss - confirmé.
+-   28 septembre 2023 : Mise en oeuvre du modèle STM pour les [données 10 ans de Publicité TV](https://benaventc.github.io/blog/posts/b003_DigitalMarketingConference/) - Bruno Chavez - Dauphine-PSL-Acss) - confirmé.
+-   12 octobre 2023 : Personnalité de marque : un modèle seed LDA (Julien Monot - Doctorant Nanterre) - confirmé
+-   26 octobre 2023 : Etudier la transgression (Sophie Balech - Université de Picardie) - confirmé
+-   9 novembre 2023 : Bert for ML.
+-   23 novembre 2023 : L'agenda et le discours ? (avec Rémy ?) -
+-   7 décembre 2023 : Perspective sur les IA generatives ?
+-   21 décembre 2023 : Analyse NLP de question ouvertes - le cas " relation sous tension" - confirmé
+-   11 janvier 2024 : Measurement of novelty through text (Reem ?)
+-   25 janvier 2024 : Using shiny for a dashboard approach of inference.
+-   8 février 2024 :
+
+Certains sujets sont souhaités : 
+
+-   Metaphor detection 
+-   Retour sur le ZeroShot classification. 
+-   Nlp for abstracts - keyword extraction 
+-   LLM applications
+
+...
+
+En 2022-2023, nous avons eu un certain nombre séances:
+
+-   Jacqueline (Dauphine- Acss) : zero-shot classification
+-   José Moreno (Dauphine- Acss): implementation of a bert topic model
+-   Christophe Benavent et Olivier Caron (Dauphine - Acss): [Systematic Litterature Review](https://benaventc.github.io/blog/posts/b0016_NLPW02/).
+-   2023-02-27 at 17:30h - Giovanni Visentin (ESCP Paris) - Mining Upper Echelons’ Big Five Personality Traits from Twitter
+-   2023-01-23 at 17:30h - Patrick Paroubek (LISN/CNRS-Paris-Saclay) - Integrative approach for entities extraction
+-   2022-12-11 at 17:30h - Christophe Benavent - "Entendre du rap français: an interpretation" 
+-   2022-11-28 at 17:30h - Mihai Calciu (University Lille) - Big Twitter Dataset - COVID-19 A Data-sourcing and ETL Exercice - 
+-   2022-11-21 at 17:30h - Théo Delemazure (PSL Dauphine/Lamsade) From left or right ? playing with GPT3
+-   2022-11-14 at 07:45h - José Carlos Romero Moreno (PSL - ACSS) - Transformers !
+-   2022-11-07 at 17:30h - Christophe Benavent (Dauphine) - Playing with embeddings
+-   2022-10-24 at 17:30h - Mathilde Abel (Université Sorbonne Nouvelle) - More embeddings for forum data analysis
+-   2022-10-10 at 17:30h - Camille Lacan and Olga Gonsalvez (University of Perpignan) - CNNs to capture a smile
+  

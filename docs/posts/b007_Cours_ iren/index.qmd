@@ -1,0 +1,38 @@
+---
+title: "Cours M2 Iren : économie et management dans la Société de l'information "
+author: "Christophe Benavent"
+date: "2023-09-15"
+categories: [Stratégie, Digital, Plateformes, Cours]
+---
+
+Ce cours est largement consacré aux modèles de plateformes, il est d'inspiration socio-économique. Les technologies c'est d'abord une histoire, des contingences et des principes, si ce ne sont des lois.
+
+On se concentrera cette année sur l'écosystème de l'édition scientifique qui en 30 ans a produit, plus qu'une architecture, mais un urbanisme de cette économie. C'est avec le champs de la musique, un cas exceptionnel de transformation digitale.
+
+![https://press.rebus.community/scholarlyreading/chapter/the-scholarly-publishing-ecosystem/](image14.jpg)
+
+## Programme
+
+Séance 1 (15 septembre) : Introduction : une brève histoire du digital
+
+Séance 2 (22 septembre) : Modèles de plateforme
+
+Séance 3 (29 septembre) : Gouvernementalité algorithmique
+
+Séance 4 (6 Octobre) : Modèles d'affaire et de revenus
+
+Séance 5 (13 Octobre) : La question de l'IA
+
+Séance 6 (20 Octobre) : Critiques et controverses
+
+Séance 7 (27 Octobre) : Présentation des travaux
+
+## Evaluation
+
+sur la base d'un exposé qui prend la forme d'une étude de cas. Pour cette années ( 2023-2024) on s'intéresse à l'écosystème des publications scientifiques.
+
+
+
+```{=html}
+<iframe width="800" height="500" src="PlateformeCours1.pdf" title="Quarto Documentation"></iframe>
+```

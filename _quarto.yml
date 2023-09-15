@@ -11,9 +11,8 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/BenaventC
-      - icon: Twitter
+      - icon: twitter
         href: https://twitter.com/Benavent
-
 format:
   html:
     theme: cosmo

@@ -1,7 +1,7 @@
 ---
 title: "Cours M2 Iren : économie et management dans la Société de l'information "
 author: "Christophe Benavent"
-date: "2023-07-29"
+date: "2023-09-15"
 categories: [Stratégie, Digital, Plateformes, Cours]
 ---
 
@@ -13,18 +13,26 @@ On se concentrera cette année sur l'écosystème de l'édition scientifique qui
 
 ## Programme
 
-Séance 1 (8 septembre) : Introduction : une brève histoire du digital
+Séance 1 (15 septembre) : Introduction : une brève histoire du digital
 
-Séance 2 (15 septembre) : Modèles de plateforme
+Séance 2 (22 septembre) : Modèles de plateforme
 
-Séance 3 (22 septembre) : Gouvernementalité algorithmique
+Séance 3 (29 septembre) : Gouvernementalité algorithmique
 
-Séance 4 (29 septembre) : Modèles d'affaire et de revenu
+Séance 4 (6 Octobre) : Modèles d'affaire et de revenus
 
-Séance 5 (6 Octobre) : La question de l'IA
+Séance 5 (13 Octobre) : La question de l'IA
 
-Séance 8 (13 Octobre) : Présentation des travaux
+Séance 6 (20 Octobre) : Critiques et controverses
+
+Séance 7 (27 Octobre) : Présentation des travaux
 
 ## Evaluation
 
 sur la base d'un exposé qui prend la forme d'une étude de cas. Pour cette années ( 2023-2024) on s'intéresse à l'écosystème des publications scientifiques.
+
+
+
+```{=html}
+<iframe width="800" height="500" src="PlateformeCours1.pdf" title="Quarto Documentation"></iframe>
+```
