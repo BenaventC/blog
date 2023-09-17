@@ -154,43 +154,41 @@ gtag('config', 'G-2R79S40E0F', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Cours Master 204 Data analysis - Introduction : prise en main de r, rstudio, quarto et tidyverse</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">Data Sciences</div>
-                <div class="quarto-category">Dplyr</div>
-                <div class="quarto-category">ggplot</div>
-                <div class="quarto-category">Cours</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Christophe Benavent </p>
-            </div>
-    </div>
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cours Master 204 Data analysis - Introduction : prise en main de r, rstudio, quarto et tidyverse</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Data Sciences</div>
+    <div class="quarto-category">Dplyr</div>
+    <div class="quarto-category">ggplot</div>
+    <div class="quarto-category">Cours</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Christophe Benavent </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
 
 <section id="avertissement" class="level1">
 <h1>Avertissement</h1>
@@ -237,56 +235,44 @@ gtag('config', 'G-2R79S40E0F', { 'anonymize_ip': true});
    0   25   75  125  200 
 1174  371  264  151  240 </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(df<span class="sc">$</span>Q61_r2_c1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r2_c1[df<span class="sc">$</span>Q61_r2_c1<span class="sc">==</span><span class="st">"#NUL!"</span>]<span class="ot">&lt;-</span><span class="dv">0</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r2_c1[df<span class="sc">$</span>Q61_r2_c1<span class="sc">==</span><span class="st">"Entre 1 et 49"</span>]<span class="ot">&lt;-</span><span class="dv">25</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r2_c1[df<span class="sc">$</span>Q61_r2_c1<span class="sc">==</span><span class="st">"50 et plus"</span>]<span class="ot">&lt;-</span><span class="dv">75</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Budget_Physique<span class="ot">&lt;-</span><span class="fu">as.numeric</span>(df<span class="sc">$</span>Q61_r2_c1)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r3_c1[df<span class="sc">$</span>Q61_r3_c1<span class="sc">==</span><span class="st">"#NUL!"</span>]<span class="ot">&lt;-</span><span class="dv">0</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r3_c1[df<span class="sc">$</span>Q61_r3_c1<span class="sc">==</span><span class="st">" Moins de 50"</span>]<span class="ot">&lt;-</span><span class="dv">25</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r3_c1[df<span class="sc">$</span>Q61_r3_c1<span class="sc">==</span><span class="st">"Entre 50 et 99"</span>]<span class="ot">&lt;-</span><span class="dv">75</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r3_c1[df<span class="sc">$</span>Q61_r3_c1<span class="sc">==</span><span class="st">"100 et plus"</span>]<span class="ot">&lt;-</span><span class="dv">125</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Budget_Abo<span class="ot">&lt;-</span><span class="fu">as.numeric</span>(df<span class="sc">$</span>Q61_r3_c1)</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r4_c1[df<span class="sc">$</span>Q61_r4_c1<span class="sc">==</span><span class="st">"#NUL!"</span>]<span class="ot">&lt;-</span><span class="dv">0</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r4_c1[df<span class="sc">$</span>Q61_r4_c1<span class="sc">==</span><span class="st">"Moins de 20"</span>]<span class="ot">&lt;-</span><span class="dv">10</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r4_c1[df<span class="sc">$</span>Q61_r4_c1<span class="sc">==</span><span class="st">"20 et plus"</span>]<span class="ot">&lt;-</span><span class="dv">30</span></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Budget_download<span class="ot">&lt;-</span><span class="fu">as.numeric</span>(df<span class="sc">$</span>Q61_r4_c1)</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Budget<span class="ot">&lt;-</span> (df<span class="sc">$</span>Budget_download<span class="sc">+</span>df<span class="sc">$</span>Budget_Abo<span class="sc">+</span>df<span class="sc">$</span>Budget_Physique<span class="sc">+</span> df<span class="sc">$</span>Budget_Spectacle)</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>df<span class="ot">&lt;-</span>df <span class="sc">%&gt;%</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(FréquenceMusique<span class="ot">=</span><span class="fu">ifelse</span>(Q4<span class="sc">==</span><span class="st">"#NUL!"</span>,Q3,Q4))</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>FréquenceMusique2[df<span class="sc">$</span>FréquenceMusique<span class="sc">==</span><span class="st">"Jamais"</span>]<span class="ot">&lt;-</span><span class="dv">0</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>FréquenceMusique2[df<span class="sc">$</span>FréquenceMusique<span class="sc">==</span><span class="st">"Moins souvent"</span>]<span class="ot">&lt;-</span><span class="dv">1</span></span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>FréquenceMusique2[df<span class="sc">$</span>FréquenceMusique<span class="sc">==</span><span class="st">"1 à 3 fois par mois"</span>]<span class="ot">&lt;-</span><span class="dv">2</span></span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>FréquenceMusique2[df<span class="sc">$</span>FréquenceMusique<span class="sc">==</span><span class="st">"1 à 5 fois par semaine"</span>]<span class="ot">&lt;-</span><span class="dv">3</span></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>FréquenceMusique2[df<span class="sc">$</span>FréquenceMusique<span class="sc">==</span><span class="st">"Moins de 1 heure / jour"</span>]<span class="ot">&lt;-</span><span class="dv">4</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>FréquenceMusique2[df<span class="sc">$</span>FréquenceMusique<span class="sc">==</span><span class="st">"Entre 1 et 2 heures / jour"</span>]<span class="ot">&lt;-</span><span class="dv">5</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>FréquenceMusique2[df<span class="sc">$</span>FréquenceMusique<span class="sc">==</span><span class="st">"Entre 2 et 3 heures / jour"</span>]<span class="ot">&lt;-</span><span class="dv">6</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>FréquenceMusique2[df<span class="sc">$</span>FréquenceMusique<span class="sc">==</span><span class="st">"Entre 3 et 4 heures / jour"</span>]<span class="ot">&lt;-</span><span class="dv">7</span></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>FréquenceMusique2[df<span class="sc">$</span>FréquenceMusique<span class="sc">==</span><span class="st">"Entre 4 et 6 heures / jour"</span>]<span class="ot">&lt;-</span><span class="dv">8</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>FréquenceMusique2[df<span class="sc">$</span>FréquenceMusique<span class="sc">==</span><span class="st">"Plus de 6 heures /jour"</span>]<span class="ot">&lt;-</span><span class="dv">9</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(df<span class="sc">$</span>FréquenceMusique2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
-        #NUL!             0    50 et plus Entre 1 et 49 
-          657           593           426           524 </code></pre>
+  0   1   2   3   4   5   6   7   8   9 
+214 188 222 480 253 512 190  77  28  36 </code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r2_c1[df<span class="sc">$</span>Q61_r2_c1<span class="sc">==</span><span class="st">"#NUL!"</span>]<span class="ot">&lt;-</span><span class="dv">0</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r2_c1[df<span class="sc">$</span>Q61_r2_c1<span class="sc">==</span><span class="st">"Entre 1 et 49"</span>]<span class="ot">&lt;-</span><span class="dv">25</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r2_c1[df<span class="sc">$</span>Q61_r2_c1<span class="sc">==</span><span class="st">"50 et plus"</span>]<span class="ot">&lt;-</span><span class="dv">75</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Budget_Physique<span class="ot">&lt;-</span><span class="fu">as.numeric</span>(df<span class="sc">$</span>Q61_r2_c1)</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(df<span class="sc">$</span>Budget_Physique)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-   0   25   75 
-1250  524  426 </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(df<span class="sc">$</span>Q61_r3_c1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-         #NUL!    100 et plus Entre 50 et 99    Moins de 50 
-          1812            147             52            189 </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r3_c1[df<span class="sc">$</span>Q61_r3_c1<span class="sc">==</span><span class="st">"#NUL!"</span>]<span class="ot">&lt;-</span><span class="dv">0</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r3_c1[df<span class="sc">$</span>Q61_r3_c1<span class="sc">==</span><span class="st">" Moins de 50"</span>]<span class="ot">&lt;-</span><span class="dv">25</span></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r3_c1[df<span class="sc">$</span>Q61_r3_c1<span class="sc">==</span><span class="st">"Entre 50 et 99"</span>]<span class="ot">&lt;-</span><span class="dv">75</span></span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r3_c1[df<span class="sc">$</span>Q61_r3_c1<span class="sc">==</span><span class="st">"100 et plus"</span>]<span class="ot">&lt;-</span><span class="dv">125</span></span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Budget_Abo<span class="ot">&lt;-</span><span class="fu">as.numeric</span>(df<span class="sc">$</span>Q61_r3_c1)</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(df<span class="sc">$</span>Budget_Abo)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-   0   75  125 
-1812   52  147 </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(df<span class="sc">$</span>Q61_r4_c1)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-      #NUL!  20 et plus Moins de 20 
-       1980          97         123 </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r4_c1[df<span class="sc">$</span>Q61_r4_c1<span class="sc">==</span><span class="st">"#NUL!"</span>]<span class="ot">&lt;-</span><span class="dv">0</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r4_c1[df<span class="sc">$</span>Q61_r4_c1<span class="sc">==</span><span class="st">"Moins de 20"</span>]<span class="ot">&lt;-</span><span class="dv">10</span></span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Q61_r4_c1[df<span class="sc">$</span>Q61_r4_c1<span class="sc">==</span><span class="st">"20 et plus"</span>]<span class="ot">&lt;-</span><span class="dv">30</span></span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Budget_download<span class="ot">&lt;-</span><span class="fu">as.numeric</span>(df<span class="sc">$</span>Q61_r4_c1)</span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="fu">table</span>(df<span class="sc">$</span>Budget_Physique)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>
-   0   25   75 
-1250  524  426 </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>Budget<span class="ot">&lt;-</span> (df<span class="sc">$</span>Budget_download<span class="sc">+</span>df<span class="sc">$</span>Budget_Abo<span class="sc">+</span>df<span class="sc">$</span>Budget_Physique<span class="sc">+</span> df<span class="sc">$</span>Budget_Spectacle)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="analyse-des-distributions" class="level1">
@@ -304,8 +290,8 @@ gtag('config', 'G-2R79S40E0F', { 'anonymize_ip': true});
 <li><p>L’argument <code>binwidth</code> spécifie la largeur des barres de l’histogramme.</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df,<span class="fu">aes</span>(Budget))<span class="sc">+</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">25</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df,<span class="fu">aes</span>(Budget))<span class="sc">+</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">25</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="script1_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
@@ -317,12 +303,12 @@ gtag('config', 'G-2R79S40E0F', { 'anonymize_ip': true});
 <p>La ligne 1 crée un tableau de contingence de la variable <code>RAGE2</code>. Ce tableau montre la distribution des valeurs de la variable. La ligne 2 convertit le tableau de contingence en un data frame. La ligne 3 crée un graphique à barres. La fonction <code>geom_bar()</code> est utilisée pour créer les barres du graphique. L’argument <code>stat</code> spécifie le type de statistique à utiliser pour calculer les hauteurs des barres. Dans ce cas, la statistique <code>identity</code> est utilisée, ce qui signifie que les hauteurs des barres sont égales aux valeurs de la variable <code>Freq</code>. La ligne 4 inverse l’axe des abscisses et l’axe des ordonnées.</p>
 <p>Ce code R est un exemple simple de la façon de créer un diagramme à barres horizontal à l’aide de la bibliothèque <code>ggplot2</code>.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>t<span class="ot">&lt;-</span><span class="fu">table</span>(df<span class="sc">$</span>RAGE2)<span class="sc">%&gt;%</span></span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.data.frame</span>()</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(t,<span class="fu">aes</span>(<span class="at">x=</span>Var1, <span class="at">y=</span>Freq))<span class="sc">+</span></span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">"identity"</span>)<span class="sc">+</span></span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>t<span class="ot">&lt;-</span><span class="fu">table</span>(df<span class="sc">$</span>RAGE2)<span class="sc">%&gt;%</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.data.frame</span>()</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(t,<span class="fu">aes</span>(<span class="at">x=</span>Var1, <span class="at">y=</span>Freq))<span class="sc">+</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">"identity"</span>)<span class="sc">+</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="script1_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
 </div>
@@ -337,25 +323,25 @@ gtag('config', 'G-2R79S40E0F', { 'anonymize_ip': true});
 <p>La ligne 1 crée un nouveau data frame, foo, qui contient le budget moyen, le nombre d’observations et l’erreur standard du budget moyen pour chaque groupe d’âge. La ligne 2 crée un graphique en ligne à l’aide de la bibliothèque ggplot2. La variable RAGE2 est utilisée pour l’axe des abscisses et la variable Budget_m est utilisée pour l’axe des ordonnées.</p>
 <p>La ligne 3 ajoute une ligne rouge au graphique et la ligne 4 ajoute des barres d’erreur au graphique. Les barres d’erreur représentent l’erreur standard du budget moyen. Ce code crée un graphique en ligne avec des barres d’erreur montrant l’évolution du budget moyen en fonction de l’âge. Les barres d’erreur représentent l’incertitude de la mesure du budget moyen.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>foo<span class="ot">&lt;-</span>df <span class="sc">%&gt;%</span></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(RAGE2)<span class="sc">%&gt;%</span></span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Budget_m=</span><span class="fu">mean</span>(Budget, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">n=</span><span class="fu">n</span>(),</span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">Budget_se=</span><span class="fl">1.96</span><span class="sc">*</span><span class="fu">sd</span>(Budget,<span class="at">na.rm=</span><span class="cn">TRUE</span>)<span class="sc">/</span><span class="fu">sqrt</span>((n<span class="dv">-1</span>)))</span>
-<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(foo, <span class="fu">aes</span>(<span class="at">x=</span> RAGE2, <span class="at">y=</span>Budget_m, <span class="at">group =</span> <span class="dv">1</span>))<span class="sc">+</span></span>
-<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">size=</span><span class="fl">1.2</span>, <span class="at">color=</span><span class="st">"red"</span>)<span class="sc">+</span></span>
-<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">ymin =</span> Budget_m<span class="sc">-</span>Budget_se, </span>
-<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>                    <span class="at">ymax =</span> Budget_m<span class="sc">+</span>Budget_se),</span>
-<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>                <span class="at">width =</span> <span class="fl">0.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>foo<span class="ot">&lt;-</span>df <span class="sc">%&gt;%</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(RAGE2)<span class="sc">%&gt;%</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Budget_m=</span><span class="fu">mean</span>(Budget, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">n=</span><span class="fu">n</span>(),</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">Budget_se=</span><span class="fl">1.96</span><span class="sc">*</span><span class="fu">sd</span>(Budget,<span class="at">na.rm=</span><span class="cn">TRUE</span>)<span class="sc">/</span><span class="fu">sqrt</span>((n<span class="dv">-1</span>)))</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(foo, <span class="fu">aes</span>(<span class="at">x=</span> RAGE2, <span class="at">y=</span>Budget_m, <span class="at">group =</span> <span class="dv">1</span>))<span class="sc">+</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">size=</span><span class="fl">1.2</span>, <span class="at">color=</span><span class="st">"red"</span>)<span class="sc">+</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">ymin =</span> Budget_m<span class="sc">-</span>Budget_se, </span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>                    <span class="at">ymax =</span> Budget_m<span class="sc">+</span>Budget_se),</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>                <span class="at">width =</span> <span class="fl">0.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="script1_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>On peut souhaiter tester la différences des moyennes. L’anova est la méthode adéquate</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>fit<span class="ot">&lt;-</span> <span class="fu">lm</span>(Budget<span class="sc">~</span>RAGE2, <span class="at">data=</span>df)</span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a><span class="fu">anova</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>fit<span class="ot">&lt;-</span> <span class="fu">lm</span>(Budget<span class="sc">~</span>RAGE2, <span class="at">data=</span>df)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">anova</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Analysis of Variance Table
 
@@ -366,7 +352,7 @@ Residuals 2006 18721235    9333
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -395,8 +381,8 @@ F-statistic: 8.046 on 4 and 2006 DF,  p-value: 1.963e-06</code></pre>
 <p>Si nous étions exigeants, on se dirait que le budget n’est pas vraiment quantitaif, mais juste ordinal. Dans ce cas le bon test est celui de Kruskall-Wallis.</p>
 <p>A deux facteur peut souhaiter tester la différences des moyennes. L’anova est la méthode adéquate</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>fit<span class="ot">&lt;-</span> <span class="fu">lm</span>(Budget<span class="sc">~</span>RAGE2<span class="sc">+</span>SEXE, <span class="at">data=</span>df)</span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="fu">anova</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>fit<span class="ot">&lt;-</span> <span class="fu">lm</span>(Budget<span class="sc">~</span>RAGE2<span class="sc">+</span>SEXE, <span class="at">data=</span>df)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">anova</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Analysis of Variance Table
 
@@ -408,7 +394,7 @@ Residuals 2005 18487240    9221
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -437,22 +423,22 @@ F-statistic: 11.59 on 5 and 2005 DF,  p-value: 4.654e-11</code></pre>
 </div>
 <p>Examinons les résultats</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>foo<span class="ot">&lt;-</span>df <span class="sc">%&gt;%</span></span>
-<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(RAGE2, SEXE)<span class="sc">%&gt;%</span></span>
-<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Budget_m=</span><span class="fu">mean</span>(Budget, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
-<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">n=</span><span class="fu">n</span>(),</span>
-<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">Budget_se=</span><span class="fl">1.96</span><span class="sc">*</span><span class="fu">sd</span>(Budget,<span class="at">na.rm=</span><span class="cn">TRUE</span>)<span class="sc">/</span><span class="fu">sqrt</span>((n<span class="dv">-1</span>))) <span class="co">#rerreur type d'échantillonnage</span></span>
-<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(foo, <span class="fu">aes</span>(<span class="at">x=</span> RAGE2, <span class="at">y=</span>Budget_m, <span class="at">group =</span> SEXE))<span class="sc">+</span></span>
-<span id="cb29-8"><a href="#cb29-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">size=</span><span class="fl">1.2</span>, <span class="fu">aes</span>(<span class="at">color=</span>SEXE))<span class="sc">+</span></span>
-<span id="cb29-9"><a href="#cb29-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">ymin =</span> Budget_m<span class="sc">-</span>Budget_se, </span>
-<span id="cb29-10"><a href="#cb29-10" aria-hidden="true" tabindex="-1"></a>                    <span class="at">ymax =</span> Budget_m<span class="sc">+</span>Budget_se),</span>
-<span id="cb29-11"><a href="#cb29-11" aria-hidden="true" tabindex="-1"></a>                <span class="at">width =</span> <span class="fl">0.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>foo<span class="ot">&lt;-</span>df <span class="sc">%&gt;%</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(RAGE2, SEXE)<span class="sc">%&gt;%</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">Budget_m=</span><span class="fu">mean</span>(Budget, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">n=</span><span class="fu">n</span>(),</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">Budget_se=</span><span class="fl">1.96</span><span class="sc">*</span><span class="fu">sd</span>(Budget,<span class="at">na.rm=</span><span class="cn">TRUE</span>)<span class="sc">/</span><span class="fu">sqrt</span>((n<span class="dv">-1</span>))) <span class="co">#rerreur type d'échantillonnage</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(foo, <span class="fu">aes</span>(<span class="at">x=</span> RAGE2, <span class="at">y=</span>Budget_m, <span class="at">group =</span> SEXE))<span class="sc">+</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">size=</span><span class="fl">1.2</span>, <span class="fu">aes</span>(<span class="at">color=</span>SEXE))<span class="sc">+</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">ymin =</span> Budget_m<span class="sc">-</span>Budget_se, </span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>                    <span class="at">ymax =</span> Budget_m<span class="sc">+</span>Budget_se),</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>                <span class="at">width =</span> <span class="fl">0.2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="script1_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="672"></p>
 </div>
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>fit<span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="fu">log</span>(Budget<span class="sc">+</span><span class="dv">1</span>)<span class="sc">~</span>RAGE2<span class="sc">*</span>SEXE, <span class="at">data=</span>df)</span>
-<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="fu">anova</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>fit<span class="ot">&lt;-</span> <span class="fu">lm</span>(<span class="fu">log</span>(Budget<span class="sc">+</span><span class="dv">1</span>)<span class="sc">~</span>RAGE2<span class="sc">*</span>SEXE, <span class="at">data=</span>df)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">anova</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Analysis of Variance Table
 
@@ -465,7 +451,7 @@ Residuals  2001 10064.4   5.030
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fit)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -510,23 +496,32 @@ F-statistic: 9.864 on 9 and 2001 DF,  p-value: 6.463e-15</code></pre>
 </ul>
 <p>Le corrélogramme sera affiché dans une nouvelle fenêtre graphique. Les cellules du corrélogramme seront colorées en fonction de la valeur de la corrélation, du plus clair au plus foncé. Les corrélations positives seront affichées en bleu et les corrélations négatives en rouge.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>foo<span class="ot">&lt;-</span> df<span class="sc">%&gt;%</span></span>
-<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="dv">50</span>,<span class="dv">51</span>,<span class="dv">52</span>,<span class="dv">53</span>)<span class="sc">%&gt;%</span></span>
-<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="fu">replace</span>(<span class="fu">is.na</span>(.), <span class="dv">0</span>)</span>
-<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>r<span class="ot">&lt;-</span> <span class="fu">cor</span>(foo)</span>
-<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>r</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>foo<span class="ot">&lt;-</span> df<span class="sc">%&gt;%</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="dv">50</span>,<span class="dv">51</span>,<span class="dv">52</span>,<span class="dv">53</span>, <span class="dv">54</span>, <span class="dv">56</span>)<span class="sc">%&gt;%</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="fu">replace</span>(<span class="fu">is.na</span>(.), <span class="dv">0</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>r<span class="ot">&lt;-</span> <span class="fu">cor</span>(foo)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>r</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>                 Budget_Spectacle Budget_Physique Budget_Abo Budget_download
-Budget_Spectacle        1.0000000      0.45291296 0.21383634       0.1699954
-Budget_Physique         0.4529130      1.00000000 0.06093832       0.1825218
-Budget_Abo              0.2138363      0.06093832 1.00000000       0.1230690
-Budget_download         0.1699954      0.18252180 0.12306895       1.0000000</code></pre>
+<pre><code>                  Budget_Spectacle Budget_Physique Budget_Abo Budget_download
+Budget_Spectacle         1.0000000      0.45291296 0.21383634       0.1699954
+Budget_Physique          0.4529130      1.00000000 0.06093832       0.1825218
+Budget_Abo               0.2138363      0.06093832 1.00000000       0.1230690
+Budget_download          0.1699954      0.18252180 0.12306895       1.0000000
+Budget                   0.8296192      0.58166840 0.54030255       0.2237456
+FréquenceMusique2        0.2764380      0.22222331 0.19906669       0.2078729
+                     Budget FréquenceMusique2
+Budget_Spectacle  0.8296192         0.2764380
+Budget_Physique   0.5816684         0.2222233
+Budget_Abo        0.5403025         0.1990667
+Budget_download   0.2237456         0.2078729
+Budget            1.0000000         0.2818805
+FréquenceMusique2 0.2818805         1.0000000</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggcorrplot)</span>
-<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggcorrplot</span>(r, <span class="at">hc.order =</span> <span class="cn">TRUE</span>, <span class="at">type =</span> <span class="st">"lower"</span>,</span>
-<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>   <span class="at">outline.col =</span> <span class="st">"white"</span>,</span>
-<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>   <span class="at">ggtheme =</span> ggplot2<span class="sc">::</span>theme_gray,</span>
-<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>   <span class="at">colors =</span> <span class="fu">c</span>(<span class="st">"#6D9EC1"</span>, <span class="st">"white"</span>, <span class="st">"#E46726"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggcorrplot)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggcorrplot</span>(r, <span class="at">hc.order =</span> <span class="cn">TRUE</span>, <span class="at">type =</span> <span class="st">"lower"</span>,</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>   <span class="at">outline.col =</span> <span class="st">"white"</span>,</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>   <span class="at">ggtheme =</span> ggplot2<span class="sc">::</span>theme_gray,</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>   <span class="at">colors =</span> <span class="fu">c</span>(<span class="st">"#6D9EC1"</span>, <span class="st">"white"</span>, <span class="st">"#E46726"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="script1_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="672"></p>
 </div>
@@ -540,24 +535,24 @@ Ce code crée un diagramme à barres montrant la distribution des âges par clas
 <p>La deuxième ligne de code crée un tableau de contingence croisant l’âge et la classe de budget. La fonction <code>table()</code> est utilisée pour compter le nombre d’observations dans chaque cellule du tableau. La fonction <code>prop.table()</code> est ensuite utilisée pour calculer les proportions marginales, c’est-à-dire les proportions des observations dans chaque catégorie d’âge et de classe de budget. Ce tableau de contingence est transcrit un data frame. Cette étape est nécessaire car la fonction <code>ggplot()</code> ne peut pas prendre un tableau de contingence en entrée.</p>
 <p>La troisème ligne de code crée un diagramme à barres à l’aide de la fonction <code>ggplot()</code>. Les arguments <code>aes()</code> sont utilisés pour spécifier les variables à utiliser pour l’axe des x, l’axe des y et la couleur des barres. La fonction <code>geom_bar()</code> est ensuite utilisée pour créer les barres du diagramme.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>foo <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
-<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Budget_class=</span> <span class="fu">ifelse</span>(Budget<span class="sc">&lt;</span><span class="dv">50</span>, <span class="st">"Faible"</span>, </span>
-<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>                              <span class="fu">ifelse</span>(Budget<span class="sc">&gt;</span><span class="dv">149</span>, <span class="st">"Moyen"</span>, <span class="st">"Supérieur"</span>)))</span>
-<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>t<span class="ot">&lt;-</span><span class="fu">prop.table</span>(<span class="fu">table</span>(foo<span class="sc">$</span>RAGE2, foo<span class="sc">$</span>Budget_class), <span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.data.frame</span>()</span>
-<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(t, <span class="fu">aes</span>(<span class="at">x=</span>Var1,<span class="at">y=</span>Freq, <span class="at">group=</span>Var2))<span class="sc">+</span></span>
-<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">"identity"</span>, <span class="fu">aes</span>(<span class="at">fill=</span>Var2))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>foo <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">Budget_class=</span> <span class="fu">ifelse</span>(Budget<span class="sc">&lt;</span><span class="dv">50</span>, <span class="st">"Faible"</span>, </span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>                              <span class="fu">ifelse</span>(Budget<span class="sc">&gt;</span><span class="dv">149</span>, <span class="st">"Moyen"</span>, <span class="st">"Supérieur"</span>)))</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>t<span class="ot">&lt;-</span><span class="fu">prop.table</span>(<span class="fu">table</span>(foo<span class="sc">$</span>RAGE2, foo<span class="sc">$</span>Budget_class), <span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.data.frame</span>()</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(t, <span class="fu">aes</span>(<span class="at">x=</span>Var1,<span class="at">y=</span>Freq, <span class="at">group=</span>Var2))<span class="sc">+</span></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat=</span><span class="st">"identity"</span>, <span class="fu">aes</span>(<span class="at">fill=</span>Var2))<span class="sc">+</span><span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img src="script1_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p>Un petit test du chi² ferait du bien. Il est extrêmement significatif.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>khi_test <span class="ot">=</span> <span class="fu">chisq.test</span>(<span class="fu">table</span>(foo<span class="sc">$</span>RAGE2, foo<span class="sc">$</span>Budget_class))</span>
-<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>khi_test <span class="co"># affiche le résultat du test</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>khi_test <span class="ot">=</span> <span class="fu">chisq.test</span>(<span class="fu">table</span>(foo<span class="sc">$</span>RAGE2, foo<span class="sc">$</span>Budget_class))</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>khi_test <span class="co"># affiche le résultat du test</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
     Pearson's Chi-squared test
