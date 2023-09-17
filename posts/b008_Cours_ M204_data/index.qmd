@@ -1,17 +1,17 @@
 ---
 title: "Cours Master 204 : Analyse de données "
 author: "Christophe Benavent"
-date: "2023-07-28"
+date: "2023-09-18"
 categories: [Data sciences, Analyse de données, r , Cours]
 ---
 
-Ce cours est largement consacré aux méthodes fondamentale de l'analyse de données dans une perspective marketing.
+Ce cours est largement consacré aux méthodes fondamentale de l'analyse de données dans une perspective marketing. On s'appuie sur l'environnement r, rstudio quarto.
 
 ![https://www.displayr.com/easily-add-images-to-a-correspondence-analysis-map-in-displayr/](correspondence-logos.png)
 
 ## Programme
 
-Séance 1 () : Introduction : Dplyr + ggplot
+Séance 1 () : [Introduction : Dplyr + ggplot](./etudedecas/script1.html)
 
 Séance 2 () : Comparaisons de moyennes
 
@@ -21,8 +21,18 @@ Séance 4 () : Corrélations et régression
 
 Séance 5 () : ACP et analyses factorielles.
 
-Séance 6 () : Clustering
+Séance 6 () : Clustering.
 
 ## Evaluation
 
-sur la base d'un exposé qui prend la forme d'une étude de cas.
+sur la base d'un projet en groupe sur la base d'un jeu de donnée.
+
+## Références
+
+-   On trouvera pas mal de ressources dans mon [introduction aux data sciences](https://benaventc.github.io/DataScienceBook/) .
+
+::: {#cas}
+xxx
+:::
+
+# Etude de cas

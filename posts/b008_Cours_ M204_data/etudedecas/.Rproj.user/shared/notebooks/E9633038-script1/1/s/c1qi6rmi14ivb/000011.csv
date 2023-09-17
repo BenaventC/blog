@@ -1,0 +1,7 @@
+"0",""
+"0","t<-table(df$RAGE2)%>%"
+"0","  as.data.frame()"
+"0",""
+"0","ggplot(t,aes(x=Var1, y=Freq))+"
+"0","  geom_bar(stat=""identity"")+"
+"0","  coord_flip()"

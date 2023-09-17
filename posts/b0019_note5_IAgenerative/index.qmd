@@ -1,11 +1,12 @@
 ---
-title: "Note n°4: IA generative et analyse textuelle"
+title: "Note n°5: IA generative et analyse textuelle"
 author: "Christophe Benavent"
 date: "2023-09-01"
-categories: [Stratégie, Digital, Plateformes, Cours]
+categories: [NLP, Digital, Méthode, Notes, IA, IAG,]
+draft: true
 ---
 
-IA generative
+IA générative
 
 Les principales tâches d'analyse du texte et les solution pré IAG :
 
@@ -19,6 +20,6 @@ Les principales tâches d'analyse du texte et les solution pré IAG :
 
 le problème de la fidélité des mesures .
 
-L'usage interactif se traduit par une séries de requêtes et de réponses, il y a un dialogue qui en principe enrichit le contexte et la faculté de l' IAG d\'être pertinente. Cette séquence est ponctuée par les décision humaine : reformuler la requête lui apporter un complément.
+L'usage interactif se traduit par une séries de requêtes et de réponses, il y a un dialogue qui en principe enrichit le contexte et la faculté de l' IAG d'être pertinente. Cette séquence est ponctuée par les décision humaine : reformuler la requête lui apporter un complément.
 
 L'usage analytique consiste à appliquer un même prompt à un volume qui peut devenir vite important. Des dizaines à des millions de textes dans l'usage courant. Et cela représente un coût en temps de calcul et financiers. les temps de calculs se mesure simplement en évaluant la latence, 5 seconde pour 1 millions de documents , c'est presque 58 jours... Financièrement à 5c les milles, celà ne coût que 50 dollars...

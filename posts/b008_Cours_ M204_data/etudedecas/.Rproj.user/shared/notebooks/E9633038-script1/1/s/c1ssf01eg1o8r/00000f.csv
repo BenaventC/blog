@@ -1,0 +1,8 @@
+"0","df <- read_csv(""hadopi-2020-musique-data-reduced.csv"")"
+"2","[1mRows: [22m[34m2200[39m [1mColumns: [22m[34m49[39m"
+"2","[36m--[39m [1mColumn specification[22m [36m---------------------------------------------------------------------------------------------------------------------------------------------------[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (49): SEXE, RAGE2, AGGLOIFOP2, REG13, PI4, STATUT, FOYER, UsageAppli, Q1_1, Q1_2, Q1_3, Q1_4, Q1_5, Q1_6, Q1_7, Q1_8, Q1_9, Q1_10, Q1_11, Q2_r1, Q2_r2, Q2_r3, Q2_r..."
+"2","
+[36mi[39m Use `spec()` to retrieve the full column specification for this data.
+[36mi[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."

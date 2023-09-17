@@ -2,7 +2,8 @@
 title: "Cours Executive Master Statistique et Big data : mise en pratiques marketing"
 author: "Christophe Benavent"
 date: "2023-07-30"
-categories: [NLP, Marketing, Cours]
+categories: [NLP, Marketing, Cours, Datascience]
+draft: true
 ---
 
 Ce module du [Master Statistique et Big data](https://executive-education.dauphine.psl.eu/formations/executive-master-diplome-universite/statistique-big-data/programme) est destinés à approfondir quelques applications de modèles statistiques pour le Marketing. D'abord par la plus évidente : les méthodes de segmentation de marché où de clientèle, On poursuit avec l'analyse des données typique des systèmes CRM et une application à la modélisation de l'attrition, on revient avec la politique de produit et les méthodes d'analyses conjointes, le quatrième thème est relatif à l'analyse des avis de consommateurs par des techniques NLP.

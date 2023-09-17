@@ -1,28 +1,34 @@
 ---
 title: "Cours Master 101 : Marketing à l'âge des plateformes "
 author: "Christophe Benavent"
-date: "2023-07-17"
+date: "2023-08-17"
 categories: [Stratégie, Digital, Plateformes, Marketing,Cours]
 ---
 
-Ce cours est largement consacré aux modèles de plateformes dans une optique marketing; c'est pourquoi un focus sera donné sur l'écosystème de la publicité.
+Ce cours est largement consacré à la manière dont les technologies de d'information, et en particulier les modèles de plateformes, affectent les pratiques marketing, en balayant les 4 grands domaines d'action du marketing. On s\'intéressa moins aux consommateurs qu'aux acteurs et aux technologies.
 
 ![](ads.jpg)
 
 ## Programme
 
+Du 16 janvier au 20 février 2024
+
 Séance 1 () : Introduction : consommation As A Service
 
-Séance 2 () : Modèles de plateforme
+Séance 2 () : Les modèles de plateforme
 
-Séance 3 () : Personnalisation et automatisation
+Séance 3 () : Personnalisation et reputation.
 
 Séance 4 () : De nouveaux modes de fixation des prix
 
-Séance 5 () : Le nouvel environnement des médias
+Séance 5 () : Le nouvel environnement des médias : du social au retail media.
 
-Séance 8 () : La question de l'IA : augmentation et automatisation
+Séance 6 () : e-commerce, c2c, m2m ?
 
 ## Evaluation
 
-sur la base d'un exposé qui prend la forme d'une étude de cas. Pour cette années ( 2023-2024) on s'intéresse à l'écosystème des plateformes publicitaires.
+Cette année, un focus sera fait sur l'écosystème de la publicité programmatique. Les étudiants auront à préparer un exposé en groupe qui prend la forme d'une étude de cas d'un des acteurs de cet univers. Il s'agira d'en faire une sorte d'anatomie.
+
+## Bibliographie
+
+en attente...

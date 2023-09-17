@@ -3,6 +3,7 @@ title: "Cours Master 102: introduction au text mining"
 author: "Christophe Benavent"
 date: "2023-08-01"
 categories: [Cours, NLP, Text Mining, embeddings, ]
+draft: true
 ---
 
 Le cours est une introduction aux méthodes d'analyse automatisée du texte, qu'on peut appeler aussi NLP ( Natural Langage Processing) et désigné auparavant par text-mining. Le changement d'appellation résulte d'un mouvement d'accumulation de sophistication des techniques, allant du comptage des mots, aux méthodes d'embeddings aujourd'hui, et avec l'irruption des #LLM, la mise oeuvre de tâches complexe ( résumés, Q&A etc).

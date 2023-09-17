@@ -1,0 +1,31 @@
+{
+    "id": "2D0CAEFC",
+    "path": "~/_newblog/bloggit/posts/b008_Cours_ M204_data/index.qmd",
+    "project_path": null,
+    "type": "quarto_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": true,
+    "created": 1694927623699.0,
+    "source_on_save": true,
+    "relative_order": 2,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "501:600",
+        "cursorPosition": "15,77",
+        "scrollLine": "13"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1694927709,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1694934251051,
+    "read_only": false,
+    "read_only_alternatives": []
+}

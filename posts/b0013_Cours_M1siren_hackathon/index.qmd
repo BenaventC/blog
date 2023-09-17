@@ -1,12 +1,13 @@
 ---
 title: "Cours M1 siren : Hackathon"
 author: "Christophe Benavent"
-date: "2023-07-31"
+date: "2023-06-20"
 categories: [Hackathon, Data sciences, r, Cours]
 ---
 
 Chaque année un hackathon est proposé aux étudiants, en complément du cours de data science où les étudiant se sont familiarisé avec r visa rstudio. Une petite équipe de mentors encadre les groupes
 
+-   2024 : ?
 -   2023 : avec Orange et un jeu de données réclamation clients
 -   2022 : avec la DITP sur le projet écoute des usagers
 

@@ -1,0 +1,38 @@
+---
+title: "Cours Master 204 : Analyse de données "
+author: "Christophe Benavent"
+date: "2023-09-18"
+categories: [Data sciences, Analyse de données, r , Cours]
+---
+
+Ce cours est largement consacré aux méthodes fondamentale de l'analyse de données dans une perspective marketing. On s'appuie sur l'environnement r, rstudio quarto.
+
+![https://www.displayr.com/easily-add-images-to-a-correspondence-analysis-map-in-displayr/](correspondence-logos.png)
+
+## Programme
+
+Séance 1 (18 septembre 2023) : [Introduction : Dplyr + ggplot](./etudedecas/script1.html)
+
+Séance 2 (18 septembre 2023) : Comparaisons de moyennes - Analyse de Variance
+
+Séance 3 (27 septembre 2023) : Analyse des tris croisés - AFC
+
+Séance 4 (27 septembre 2023) : Corrélations et régression
+
+Séance 5 () : ACP et analyses factorielles.
+
+Séance 6 () : Clustering.
+
+## Evaluation
+
+Adapter et améliorer les scripts étudiés en cours, en se donnant un problème à résoudre. Le but est de rédiger une étude marketing pertinente. 
+Les données proviennent de l'[enquête Hadopi en 2020](https://www.data.gouv.fr/fr/datasets/les-pratiques-decoute-de-musique-en-ligne-octobre-2020/) disponible sur data.gouv. 
+
+- [Les données](./etudedecas/hadopi-2020-musique-data-reduced.csv) . C'est un extrait de l'ensemble des questions, les étudiants sont libre d'exploiter le fichier original.
+- [Script Séance 1,2,3](./etudedecas/script1.qmd), pour un point de départ.
+
+## Références
+
+-   On trouvera pas mal de ressources dans le textbook [introduction aux data sciences](https://benaventc.github.io/DataScienceBook/) .
+
+
