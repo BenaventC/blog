@@ -25,14 +25,11 @@ Séance 6 () : Clustering.
 
 ## Evaluation
 
-Adapter et améliorer les scripts étudiés en cours, en se donnant un problème à résoudre. Le but est de rédiger une étude marketing pertinente. 
-Les données proviennent de l'[enquête Hadopi en 2020](https://www.data.gouv.fr/fr/datasets/les-pratiques-decoute-de-musique-en-ligne-octobre-2020/) disponible sur data.gouv. 
+Adapter et améliorer les scripts étudiés en cours, en se donnant un problème à résoudre. Le but est de rédiger une étude marketing pertinente. Les données proviennent de l'[enquête Hadopi en 2020](https://www.data.gouv.fr/fr/datasets/les-pratiques-decoute-de-musique-en-ligne-octobre-2020/) disponible sur data.gouv.
 
-- [Les données](./etudedecas/hadopi-2020-musique-data-reduced.csv) . C'est un extrait de l'ensemble des questions, les étudiants sont libre d'exploiter le fichier original.
-- [Script Séance 1,2,3](./etudedecas/script1.qmd), pour un point de départ.
+-   [Les données](./etudedecas/hadopi-2020-musique-data-reduced.csv) . C'est un extrait de l'ensemble des questions, les étudiants sont libre d'exploiter le fichier original.
+-   [Script Séance 1,2,3](./etudedecas/script1.qmd), pour un point de départ.
 
 ## Références
 
 -   On trouvera pas mal de ressources dans le textbook [introduction aux data sciences](https://benaventc.github.io/DataScienceBook/) .
-
-

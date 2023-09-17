@@ -123,14 +123,14 @@
     "href": "posts/b008_Cours_ M204_data/index.html#programme",
     "title": "Cours Master 204 : Analyse de données",
     "section": "Programme",
-    "text": "Programme\nSéance 1 () : Introduction : Dplyr + ggplot\nSéance 2 () : Comparaisons de moyennes\nSéance 3 () : Analyse des tris croisés - AFC\nSéance 4 () : Corrélations et régression\nSéance 5 () : ACP et analyses factorielles.\nSéance 6 () : Clustering."
+    "text": "Programme\nSéance 1 (18 septembre 2023) : Introduction : Dplyr + ggplot\nSéance 2 (18 septembre 2023) : Comparaisons de moyennes - Analyse de Variance\nSéance 3 (27 septembre 2023) : Analyse des tris croisés - AFC\nSéance 4 (27 septembre 2023) : Corrélations et régression\nSéance 5 () : ACP et analyses factorielles.\nSéance 6 () : Clustering."
   },
   {
     "objectID": "posts/b008_Cours_ M204_data/index.html#evaluation",
     "href": "posts/b008_Cours_ M204_data/index.html#evaluation",
     "title": "Cours Master 204 : Analyse de données",
     "section": "Evaluation",
-    "text": "Evaluation\nsur la base d’un projet en groupe sur la base d’un jeu de donnée."
+    "text": "Evaluation\nAdapter et améliorer les scripts étudiés en cours, en se donnant un problème à résoudre. Le but est de rédiger une étude marketing pertinente. Les données proviennent de l’enquête Hadopi en 2020 disponible sur data.gouv.\n\nLes données . C’est un extrait de l’ensemble des questions, les étudiants sont libre d’exploiter le fichier original.\nScript Séance 1,2,3, pour un point de départ."
   },
   {
     "objectID": "posts/b009_Cours_ M101/index.html",
@@ -221,6 +221,6 @@
     "href": "posts/b008_Cours_ M204_data/index.html#références",
     "title": "Cours Master 204 : Analyse de données",
     "section": "Références",
-    "text": "Références\n\nOn trouvera pas mal de ressources dans mon introduction aux data sciences .\n\n\nxxx"
+    "text": "Références\n\nOn trouvera pas mal de ressources dans le textbook introduction aux data sciences ."
   }
 ]
