@@ -53,6 +53,6 @@
     "href": "posts/b0021_NLPW03/index.html",
     "title": "NLPWorkshop 26 Octobre 2023 : la méthode de Reinert",
     "section": "",
-    "text": "Sophie Balech de l’Université de Picardie présente à cette séance, une méthode classique pour l’analyse d’un corpus bibliographique.\n{50%}\nLe contexte de la recherche est un travail doctoral portant sur le concept de transgression en marketing. La problématique est de créer une taxonomie de l’usage de ce concept en marketing en s’appuyant sur une revue de littérature semi-systématique. On présentera le code R qui a permis de travailler depuis 782 articles scientifiques en format pdf pour réaliser une classification hiérarchique descendante (méthode Reinette sur les paragraphes concernant le concept de transgression.\nLe repo est disponible ici"
+    "text": "Sophie Balech de l’Université de Picardie présente à cette séance, une méthode classique mais efficace pour l’analyse d’un corpus bibliographique.\n\n\n\npackage reinette\n\n\nLe contexte de la recherche est un travail doctoral portant sur le concept de transgression en marketing. La problématique est de créer une taxonomie de l’usage de ce concept en marketing en s’appuyant sur une revue de littérature semi-systématique. On présentera le code R qui a permis de travailler depuis 782 articles scientifiques en format pdf pour réaliser une classification hiérarchique descendante (méthode Rainette sur les paragraphes concernant le concept de transgression.\nLe repo est disponible ici"
   }
 ]
