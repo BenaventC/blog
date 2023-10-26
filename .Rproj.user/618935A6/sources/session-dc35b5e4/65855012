@@ -3,7 +3,7 @@
     "path": "~/_newblog/bloggit/posts/b0021_NLPW03/index.qmd",
     "project_path": "posts/b0021_NLPW03/index.qmd",
     "type": "quarto_markdown",
-    "hash": "397401711",
+    "hash": "3794594720",
     "contents": "",
     "dirty": false,
     "created": 1698303681542.0,
@@ -17,15 +17,15 @@
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
         "rmdVisualModeLocation": "173:0",
-        "cursorPosition": "11,620",
-        "scrollLine": "4"
+        "cursorPosition": "9,37",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1698304715,
+    "lastKnownWriteTime": 1698305191,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1698304715090,
+    "last_content_update": 1698305191839,
     "read_only": false,
     "read_only_alternatives": []
 }
