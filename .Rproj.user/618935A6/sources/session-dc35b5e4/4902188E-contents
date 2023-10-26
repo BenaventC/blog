@@ -1,0 +1,16 @@
+---
+title: "NLPWorkshop 6 février 2023 : NLP pour SLR "
+author: "Christophe Benavent"
+date: "2023-09-4"
+categories: [NLPworkshop, Méthodes, SLR, Systematic Litterature Review, embeddings, network analysis, Scopus, NLP ]
+---
+
+Ce n'est pas tout à fait un *NLP Workshop* , mais une présentation assez détaillée, avec Olivier Caron de l'usage des techniques NLP pour réaliser des "Systematic Literature Reviews" qui a été proposée dans le cadre des activités de [DRM](https://drm.dauphine.fr/fr/drm/accueil.html) au printemps 2023.
+
+![statistics](./quant.jpeg)
+
+La qualité de la vidéo n'est pas ce qu'on fait de meilleur, l'éditing léger. On aborde l'interrogation des bases de données bibliographiques, la constitution des fichiers de données, l'analyse des réseaux d'auteurs et de citations, l'identification des thèmes par des méthodes d'embeddings et d'analyse de similarité des textes. Ce sera utile pour ceux qui travaillent sur le sujet. En voici la vidéo.
+
+{{< video https://www.youtube.com/watch?v=FQ8M5MhyRaw width="600" height="400">}}
+
+[Les slides sont disponibles ici](https://github.com/BenaventC/systematic-litterature-review), et le [code et les données sont diponibles là](https://github.com/BenaventC/systematic-litterature-review)
