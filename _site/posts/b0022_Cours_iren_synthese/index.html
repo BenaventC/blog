@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Christophe Benavent">
+<meta name="dcterms.date" content="2023-10-26">
+
+<title>Blog B - Plateformisation de l’édition scientifique- Projet Iren</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-2R79S40E0F"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-2R79S40E0F', { 'anonymize_ip': true});
+</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Blog B - Plateformisation de l’édition scientifique- Projet Iren">
+<meta property="og:description" content="">
+<meta property="og:image" content="scilit2022articles.png">
+<meta property="og:site-name" content="Blog B">
+<meta name="twitter:title" content="Blog B - Plateformisation de l’édition scientifique- Projet Iren">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="scilit2022articles.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Blog B</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/BenaventC" rel="" target=""><i class="bi bi-github" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/Benavent" rel="" target=""><i class="bi bi-twitter" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Plateformisation de l’édition scientifique- Projet Iren</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Plateformes</div>
+    <div class="quarto-category">Edition Scientifique</div>
+    <div class="quarto-category">Evolution</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Christophe Benavent </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 26, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>Ce vendredi les étudiant du Master Iren de l’Université paris -Dauphine PSL présentaient leurs réflexions sur le thème de l’année : la plateformisation de l’édition scientifique. En voici un bref compte-rendu et quelques remarques complémentaires.</p>
+<p>Pour donner une dimension du marché, il est de l’ordre de 15 milliards de dollars et porte sur une production de l’ordre de 2.5 millions d’articles scientifiques passés aux feux de la révision. En cumul les bases bibliographiques concentrent jusqu’à 200 millions de références. S’il fallait traduire en livres qui pèsent en moyenne 500 pages, c’est un million de livres. A quatre centimètre d’épaisseur, c’est une bibliothèque de 40 km de longueur de rayon qui se construit chaque année et dont la taille double tout les 10 ans. On y observera la croissance de la part en Open Acc, qui représentent désormais la moitié des contenus.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="scilit2022articles.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Production globale d’articles scientifiques</figcaption>
+</figure>
+</div>
+<p>Cet écosystème a une histoire qui retrace l’accumulation de couches spécifiques portant sur les différents domaine de l’activité scientifique : cherchez des références, organiser ces références, analyser une quantité croissante de publications, écrire plus efficacement, publier de manière standardisée.</p>
+<section id="un-marché-concentré" class="level2">
+<h2 class="anchored" data-anchor-id="un-marché-concentré">Un marché concentré</h2>
+<p>Comme tout un chacun le sait, c’est un marché très concentré où trois groupes dominent : RLX, springer nature mais dont le géant est absent, présent sur le seul segment du livre scolaire. L’édition n’est pas que scientifique. En examinant les domaine d’activités stratégique de ces trois entités, on identifient des dormes de différenciation.</p>
+<p><a href="https://wordsrated.com/academic-publishers-statistics/" class="uri">https://wordsrated.com/academic-publishers-statistics/</a></p>
+<p><a href="https://council.science/current/news/business-models-scientific-publishing/" class="uri">https://council.science/current/news/business-models-scientific-publishing/</a></p>
+<p>Cet oligopole est cependant contesté par le monde de l’open access, parfois militant mais aussi commercial : la contrepartie de l’ouverture à la lecture, est le financement par les auteurs, s’ils travaillaient gratuitement pour les éditeurs, voilà qu’ils payent pour être publiés. Un nouveau modèle émerge.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>-- Attaching core tidyverse packages ------------------------ tidyverse 2.0.0 --
+v dplyr     1.1.3     v readr     2.1.4
+v forcats   1.0.0     v stringr   1.5.0
+v ggplot2   3.4.2     v tibble    3.2.0
+v lubridate 1.9.2     v tidyr     1.3.0
+v purrr     1.0.1     -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()
+i Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggthemes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggthemes' was built under R version 4.0.5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(viridis)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'viridis' was built under R version 4.0.5</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: viridisLite</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>data<span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"countrie_citation.csv"</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>world_map <span class="ot">=</span> <span class="fu">map_data</span>(<span class="st">"world"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span> long <span class="sc">&gt;</span> <span class="dv">180</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>countries <span class="ot">=</span> world_map <span class="sc">%&gt;%</span> </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">distinct</span>(region) <span class="sc">%&gt;%</span> </span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rowid_to_column</span>()</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv2</span>(countries,<span class="st">"countries.csv"</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>data<span class="sc">$</span>Pub_hab<span class="ot">&lt;-</span> data<span class="sc">$</span>Number_of_Articles<span class="sc">/</span>data<span class="sc">$</span>Population_1000</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span> </span>
+<span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">fill =</span> <span class="fu">log10</span>(Pub_hab), <span class="at">map_id =</span> Country3)) <span class="sc">+</span></span>
+<span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_map</span>(<span class="at">map =</span> world_map) <span class="sc">+</span></span>
+<span id="cb8-18"><a href="#cb8-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">expand_limits</span>(<span class="at">x =</span> world_map<span class="sc">$</span>long, <span class="at">y =</span> world_map<span class="sc">$</span>lat) <span class="sc">+</span></span>
+<span id="cb8-19"><a href="#cb8-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_map</span>(<span class="st">"moll"</span>) <span class="sc">+</span></span>
+<span id="cb8-20"><a href="#cb8-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_map</span>()<span class="sc">+</span></span>
+<span id="cb8-21"><a href="#cb8-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_viridis</span>() <span class="sc">+</span> <span class="fu">theme_bw</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/01-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggsave</span>(<span class="st">"density.jpg"</span>, <span class="at">width =</span> <span class="dv">28</span>, <span class="at">height =</span> <span class="dv">20</span>, <span class="at">units =</span> <span class="st">"cm"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="les-éditeurs" class="level2">
+<h2 class="anchored" data-anchor-id="les-éditeurs">Les éditeurs</h2>
+<p>Ils étaient là avant le numérique, il sont très différents, certains cumulent des milliers de revues, d’autres quelques centaines de manière locale. Elsevier BV domine avec une production de l’ordre de 900 000 articles par an, Springer suit avec 500 000, Wiley est le 3 ème dépassé par le modèle Open Access de MDPI.En quatrième position Taylor et Francis qui est rattrapé par Frontiers, l’autre prodige de l’open access mais aussi du monde des revues prédatrice.</p>
+<p>On retrouve à une seconde échelle les sociétés savantes,de vielles et solides institution comme l’ IEEE et deux pôles émergeant : l’Inde et l’Egypte. Peut-il y avoir un retour des langues majeures ?</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(viridis)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>Publisher <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"Publisher.csv"</span>)<span class="sc">%&gt;%</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>      <span class="fu">group_by</span>(Publisher)<span class="sc">%&gt;%</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>      <span class="fu">mutate</span>(<span class="at">max=</span> <span class="fu">max</span>(NumberofArticles))<span class="sc">%&gt;%</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>      <span class="fu">ungroup</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>      <span class="fu">filter</span>(max<span class="sc">&gt;</span><span class="dv">32000</span> <span class="sc">&amp;</span> year<span class="sc">&lt;</span><span class="dv">2023</span>)<span class="sc">%&gt;%</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>      <span class="fu">mutate</span>(<span class="at">label =</span> <span class="fu">ifelse</span>(year <span class="sc">==</span> <span class="dv">2022</span>, Publisher, <span class="cn">NA</span>))<span class="sc">%&gt;%</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>      <span class="fu">mutate</span>(<span class="at">OpenAccessRate=</span>NumberofOAArticles<span class="sc">/</span>NumberofArticles,</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>             <span class="at">class=</span><span class="fu">ifelse</span>(OpenAccessRate<span class="sc">&gt;</span><span class="fl">0.8</span>, <span class="st">"OA model"</span>, </span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>                          <span class="fu">ifelse</span>(OpenAccessRate <span class="sc">&lt;</span>.<span class="dv">2</span>, <span class="st">"CA model"</span>, <span class="st">"mix model"</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 180 Columns: 9-- Column specification --------------------------------------------------------
+Delimiter: ","
+chr (2): Publisher, NumberofOAJournals
+dbl (6): NumberofJournals, NumberofArticles, NumberofOAArticles, 5-YearCited...
+lgl (1): Publisher short
+i Use `spec()` to retrieve the full column specification for this data.
+i Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Color-blind safe colors</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(colorspace)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'colorspace' was built under R version 4.0.5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>q20 <span class="ot">&lt;-</span> <span class="fu">qualitative_hcl</span>(<span class="dv">18</span>, <span class="st">"Dark3"</span>)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggstream)  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggstream' was built under R version 4.0.5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggrepel)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'ggrepel' was built under R version 4.0.5</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>( Publisher, </span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">aes</span>(<span class="at">x=</span>year, <span class="at">y=</span><span class="fu">as.numeric</span>(NumberofArticles)))<span class="sc">+</span>   </span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_line</span>(<span class="at">size=</span><span class="fl">1.2</span>, <span class="fu">aes</span>(<span class="at">color=</span>Publisher))<span class="sc">+</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_text_repel</span>(<span class="fu">aes</span>(<span class="at">label =</span> label),<span class="at">color=</span><span class="st">"black"</span>, <span class="at">nudge_x =</span> <span class="fl">0.35</span>, <span class="at">size =</span> <span class="dv">3</span>)<span class="sc">+</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_y_continuous</span>(<span class="at">labels =</span> scales<span class="sc">::</span>comma, <span class="at">trans=</span><span class="st">'log10'</span>)<span class="sc">+</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>      <span class="fu">scale_color_manual</span>(<span class="at">values =</span> q20)<span class="sc">+</span></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>      <span class="fu">theme_bw</span>()<span class="sc">+</span>   </span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>      <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)<span class="sc">+</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_grid</span>(.<span class="sc">~</span>class)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+
+Warning: Please use `linewidth` instead.</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Removed 102 rows containing missing values (`geom_text_repel()`).</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/02-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x=</span><span class="cn">NULL</span>, <span class="at">y=</span><span class="st">"Nombre d'articles"</span>, <span class="at">title =</span><span class="st">"Evolution du nombre d'articles publiés par revue"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$x
+NULL
+
+$y
+[1] "Nombre d'articles"
+
+$title
+[1] "Evolution du nombre d'articles publiés par revue"
+
+attr(,"class")
+[1] "labels"</code></pre>
+</div>
+</div>
+</section>
+<section id="les-bouquets-de-publications" class="level2">
+<h2 class="anchored" data-anchor-id="les-bouquets-de-publications">Les bouquets de publications</h2>
+<p>Pour distribuer ce volume de publications, la solution des bouquets de publications s’est rapidement imposée, et notamment aux bibliothèques qui les financent, à des prix parfois percus commentr excessi*fs (voir l’actu).</p>
+<p>Comme chaque bouquet couvre un champs partiels, le multi-homing est encouragé au prix de dé-duplications.</p>
+<p>Ils permettent au chercheurs des institutions abonnées d’accéder depuis leur écran à un vaste empan de littérature. Le business model est fondé sur le paiment d’abonnement par les bibliothèques et les centres de documentations.Et s’appuie sur une faible sensibilité au prix, les chercheurs ont besoin de toutes les sources?</p>
+<p>Proquest est un exemple, Jstor une autre sorte d’autorité dans le domaine économique, Cairn est un exemple local, français assez réussi mais limité, encouragé par les éditeurs français il ne peut prétendre à l’échelle globale. Il a un sens pour les humanités, ce l’est moins pour les science</p>
+</section>
+<section id="lenjeu-de-lindexation" class="level2">
+<h2 class="anchored" data-anchor-id="lenjeu-de-lindexation">L’enjeu de l’indexation</h2>
+<p>Le chercheur ne veut pas choisir entre les revues, ni même entre les bouquets de publication, mais s’il arrive qu’il les refuse par le biais de ses institutions. Il a besoin de pouvoir établir de manière exhaustive.</p>
+<p>Les plateformes de références. Scopus, Web of science se développent avec la scientométrie L’une d’elle joue un rôle clé : google scholar</p>
+</section>
+<section id="accéder-aux-ressources-cest-bien-les-gérer-cest-mieux" class="level2">
+<h2 class="anchored" data-anchor-id="accéder-aux-ressources-cest-bien-les-gérer-cest-mieux">Accéder aux ressources c’est bien, les gérer c’est mieux</h2>
+<p>La prolifération et la concentration des bases de données pose un nouveau problème aux utilisateurs, si l’accès à l’information est aisé, il est utile aussi de disposer de nouveaux outils pour brasser des boisseaux de références. Ce sont les outils de référencement qui ont bénéficié de la normalisation des références bibliographiques. Nous reviendrons un plus plus loin du le rôle dans standard dans la plateformisation de cette industrie. Ce qui est essentiel c’est l’exhaustivité.</p>
+<p>Mais même disposant d’un tel outil : une plateforme qui référence toutes mles connaissances qui méritent d’être connue, il faautà l’échelle de chaque chercheurs, d’outils qu permettent se circuler dans une base bibliographique qui re prenesentent décormais des centaines de références.</p>
+<p>Et ce n’est pas u hasard qu’on emerger dans les années …XX des outils de référencement qui sont de parfaits complémentaires. Au moins trois outils Zotero endnotes Mendalay ont émergé avec des positionnement distinctifs,</p>
+</section>
+<section id="les-sytèmes-de-ranking" class="level2">
+<h2 class="anchored" data-anchor-id="les-sytèmes-de-ranking">les sytèmes de ranking</h2>
+<p>Le régime de la compétition s’est institué très tôt. Il se constitue sur une métrique de citation et a conduit rapidement dès lors que les vbases de données étaient suffisantes, à des pratiques de ranling. ON connait shanghai mais dans le monde des revues scimago est fondamental.</p>
+<p>Si on classe les revues, on classe aussi les auteurs</p>
+<p>scitlit</p>
+</section>
+<section id="repository" class="level2">
+<h2 class="anchored" data-anchor-id="repository">repository</h2>
+<p>Il y a toujours eu une tradition de Working Paper, souvent publié localement par les centres de recherches. Une est pratique issu de la numérisation est la constitution d’archive s Mais aussi les pre print pour passer outre à la durée des évaluation.</p>
+<p>Arxiv avant tout,</p>
+<p>en economie SSRN ou les repository HAl</p>
+</section>
+<section id="se-promouvoir-dans-les-réseaux" class="level2">
+<h2 class="anchored" data-anchor-id="se-promouvoir-dans-les-réseaux">Se promouvoir dans les réseaux</h2>
+<p>les réseaux sociaux scientifiques Research Gate, Academia sont apparu en 2010 couvrant un nouveau besoin : celui de partager ses recherches pour accélérer le rythme des citations, ils bénéficient de l’extension de l’open access qui permet aux chercheurs de proposer en plein texte ses productions. Ils peuvent concurrencer les “repositories” et contribuer à l’érosion des plateformes de distribution. Ils en sont aussi les complémentaires pour autant que les premiers aient des politiques d’open accès, et forme des canaux de communication spécifiques qui cible l’entourage proche du chercheur et un peu plus largement son “collège invisible”. Une distribution par capillarité des contenus.</p>
+<p>En terme de portée <em>Academia</em> se prévaut de 175 millions d’utilisateurs, de 100 millions d’articles et de couvrir 40% des universitaire tandis que <em>ResearchGate</em> se concentre sur 25 millions d’utilisateur actifs et autant d’articles. Leur modèle est pour le premier de type freemium, et publicitaire pour le second.</p>
+<p>Les bénéfices qu’ils apportent aux utilisateur s’appuient sur de nombreux algorithmes de recherche et de tri, de recommandation que ce soit d’articles ou de chercheurs, de suivi des citations, ce bien si précieux de l’ère digitale des bibliothèques, et pardessus tout, profitant de leurs échelles des systèmes de scoring des chercheurs. L’indexation est automatique, une approche proactive du référencement des articles est adoptée, se passant en partie de l’activité volontaire des utilisateurs. Le prix à payer est celui d’une exposition à un bombardement intensif de notifications dont le rôle est de générer un niveau d’activité élevé.</p>
+<p>Ils jouent un rôle d’identité numérique à l’instar d’ORCID ou de google Scholar, ou de Mendeley.</p>
+</section>
+<section id="se-promouvoir-dans-le-monde-non-académique" class="level2">
+<h2 class="anchored" data-anchor-id="se-promouvoir-dans-le-monde-non-académique">Se promouvoir dans le monde non académique</h2>
+<p>Si le “publish or perish” est plus que jamais d’actualité, il n’est peut-être plus suffisant, il faut en plus du rayonnement. C’est toute l’intelligence d’un modèle comme <em>The conversation</em>, d’offrir une tribunes aux chercheurs à la fois directe, en étant lu directement et indirectement en étant repris par les médias. La plateforme se prévaut de 21.5 millions d’utilisateur mensuel du site, et une audience de 64.2 millions en incluant les re-publications. 87% des lecteurs ne sont pas académiques. C’est en quelque sorte une tâche d’éditorialisation qui est assurée. The science Media center s’adresse non seulement aux scientifiques, mais aussi et surtout aux journalistes et aux services de presse des institution scientifiques, 2002</p>
+</section>
+<section id="un-moteur-de-la-plateformisation-est-lémergence-de-standards" class="level2">
+<h2 class="anchored" data-anchor-id="un-moteur-de-la-plateformisation-est-lémergence-de-standards">Un moteur de la plateformisation est l’émergence de standards</h2>
+<p>Cette évolution n’aurait pu se faire sans un minimum d’interopérabilité, et le rôle des standards de ce point de vue est essentiel : pdf, DOI, pour n’en prendre que deux exemples qui ont été étudiés par nos étudiant</p>
+<ul>
+<li>le DOI, et l’ISSN, sont les plaques d’immatriculations des publications. Leur unicité permet de créer des registres quasi exhaustifs,</li>
+<li>le pdf d’origine privé, Adobe, lui aussi est devenu un standard, notamment dans sa capacité à distinguer le contenu des mises en formes;</li>
+</ul>
+<p>IL Y A D4AUTRE STANTARD PAR EXEMPLE LA MISE ENforme bibliographiquze, RIS</p>
+<p>du co^té des auteurs il y a orcid</p>
+</section>
+<section id="lire-plus-et-mieux-de-manière-systématique" class="level2">
+<h2 class="anchored" data-anchor-id="lire-plus-et-mieux-de-manière-systématique">Lire plus et mieux, de manière systématique</h2>
+<p>la vague des IA, et la prolifération de plateforme de lecture.</p>
+</section>
+<section id="elargir-le-point-de-vue" class="level2">
+<h2 class="anchored" data-anchor-id="elargir-le-point-de-vue">Elargir le point de vue</h2>
+<p>Le rôle central de git hub, et des langages.</p>
+<p>L’open data et les dataverses</p>
+</section>
+<section id="en-conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="en-conclusion">en conclusion</h2>
+<p>la plateformisation c’est</p>
+<ul>
+<li>la virtualisation du document et son interopérabilité, le document de recherche est une chaine de caractères, ue structure , des méta données.</li>
+<li>la comptabilité des documents et de leur citations, des mécanismes de réputation qui ont des effets d’attachement préférentiel et conduisant à des conséquence d’inégalité d’(échelle)</li>
+<li>une production acfdrue qui demande non seulement la sélection mais la synthèse; le rôle cxlé des résumés.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
